@@ -1,5 +1,5 @@
 # Homepage Thomas Grusz
 
-## Technologies
+## Technologies used
 
 - Bootstrap v5.3
