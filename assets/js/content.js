@@ -5,7 +5,7 @@ const englishGermanContent = {
   },
   "about_body": {
     "en": "I am a biologist by training and have worked in the pharmaceutical industry in various roles over the past 20+ years. Currently I am transitioning into the IT/Computer Science field. I have extensive experience in international medical management with a focus on strategic marketing to healthcare professionals. I have worked in Switzerland and the U.S. in cross-cultural teams, also as a team leader, and have garnered my own entrepreneurial experience in the pharmaceutical sector in the Basel region. My motivation for the professional transition stems from a profound interest in computer science and technology, as well as considerations regarding the recent developments in AI and its projected consequences on the job market. Over the last several years I have gradually acquired skills in Linux System Administration, Deep Learning/Data Science, and Web Development. Currently, I am actively seeking opportunities in the field of Linux System Administration, which I am passionate about.",
-    "de": "Ich bin ausgebildeter Diplom Biologe und habe über die letzten 20+ Jahre in verschiedenen Funktionen in der pharmazeutischen Industrie gearbeitet. Derzeit befinde ich mich in einer Übergangsphase, mit dem Wunsch, in der Informatikbranche Fuss zu fassen. Ich verfüge über umfangreiche Erfahrung im internationalen medizinischen Management mit Schwerpunkt auf strategischem Marketing. Ich habe in der Schweiz und den USA in interkulturellen Teams gearbeitet, auch als Teamleiter, und eigene unternehmerische Erfahrungen im pharmazeutischen Sektor in der Region Basel gesammelt. Meine Motivation für den beruflichen Wechsel ergibt sich aus einem profunden Interesse an Informatik und Technologie sowie aus Überlegungen zu den jüngsten Entwicklungen in der KI und ihren potentiellen Auswirkungen auf den Arbeitsmarkt. In den letzten Jahren habe ich nach und nach Fähigkeiten in den Bereichen Linux-Systemadministration, Deep Learning/Data Science und Webentwicklung erworben. Derzeit suche ich aktiv nach einer Position im Bereich Linux-Systemadministration, für die ich eine besondere Leidenschaft entwickelt habe."
+    "de": "Als ausgebildeter Diplom Biologe war ich über die letzten 20+ Jahre in verschiedenen Funktionen in der pharmazeutischen Industrie tätig. Derzeit befinde ich mich in einer Übergangsphase, mit der Absicht, in der IT/Informatikbranche Fuss zu fassen. Ich verfüge über umfangreiche Erfahrung im internationalen Medical Management mit Schwerpunkt Strategisches Marketing. Ich habe in der Schweiz und den USA in interkulturellen Teams gearbeitet, auch als Teamleiter, und eigene unternehmerische Erfahrungen im pharmazeutischen Sektor in der Region Basel gesammelt. Meine Motivation für den beruflichen Wechsel ergibt sich aus einem profunden Interesse an Informatik und Technologie sowie aus Überlegungen zu den jüngsten Entwicklungen in der KI und ihren potentiellen Auswirkungen auf den Arbeitsmarkt. In den letzten Jahren habe ich nach und nach Fähigkeiten in den Bereichen Linux-Systemadministration, Deep Learning/Data Science und Webentwicklung erworben. Derzeit suche ich aktiv nach einer Position im Bereich Linux-Systemadministration, für die ich eine besondere Leidenschaft entwickelt habe."
   },
   "featuredwork_heading": {
     "en": "Featured Work",
@@ -41,7 +41,7 @@ const englishGermanContent = {
   },
   "featuredwork_card_3_text": {
     "en": "Deep neural net in Python / Pytorch",
-    "de": "Tiefes neurales Netzwerk in Python / Pytorch"
+    "de": "Tiefes neuronales Netzwerk in Python / Pytorch"
   },
   "featuredwork_card_3_button": {
     "en": "Go to GitHub repo",
@@ -135,7 +135,7 @@ const englishGermanContent = {
   },
   "cv_workexperience_6_text": {
     "en": "I provide scientific consultancy services part-time to diverse clients within my established pharmaceutical network. Additionally, I have pursued continuous education in computer science, successfully earning an online degree in Deep Learning, a subset of Machine Learning, and obtaining a certification in Linux System Administration.",
-    "de": "Ich biete wissenschaftliche Beratungsdienstleistungen in Teilzeit für verschiedene Kunden aus meinem Netzwerk aus der Pharmaindustrie an. Darüber hinaus habe ich mich kontinuierlich in verschiedenen Informatik Bereichen weitergebildet und erfolgreich einen Online-Abschluss in Deep Learning sowie eine Zertifizierung in Linux-Systemadministration erworben."
+    "de": "Ich biete in Teilzeit wissenschaftliche Beratungsdienstleistungen für verschiedene Kunden aus meinem Netzwerk aus der Pharmaindustrie an. Daneben habe ich mich kontinuierlich in verschiedenen Informatik Bereichen weitergebildet und erfolgreich einen Online-Abschluss in Deep Learning sowie eine Zertifizierung in Linux-Systemadministration erworben."
   },
   "cv_workexperience_5_date": {
     "en": "2016 - 2017",
@@ -147,7 +147,7 @@ const englishGermanContent = {
   },
   "cv_workexperience_5_text": {
     "en": "During my sabbatical, I explored the southern regions of Europe and embarked on extended hikes in Switzerland with our dog. Along the way, I rediscovered my passion for computers and found myself captivated by the progress in artificial intelligence. This led me to begin my ongoing exploration of computer science and information technology, commencing with an online degree in web development from Udacity.",
-    "de": "Während meines Sabbaticals habe ich die südlichen Regionen Europas erkundet und ausgedehnte Wanderungen in der Schweiz mit unserem Hund unternommen. Dabei habe ich meine Leidenschaft für Computer und Technologie wiederentdeckt und war fasziniert von den Fortschritten in der künstlichen Intelligenz zu lesen. Dies führte mich zu meiner kontinuierlichen Erkundung verschiedener Informatik Themen. Daraufhin habe ich einen Online-Kurs in Web Development von Udacity als Einstieg gewählt und erfolgreich abgeschlossen."
+    "de": "Während meines Sabbaticals habe ich die südlichen Regionen Europas erkundet und mit unserem Hund ausgedehnte Wanderungen in der Schweiz unternommen. Dabei habe ich meine Leidenschaft für Computer und Technologie wiederentdeckt und war fasziniert von den Fortschritten im Bereich der Künstlichen Intelligenz. Dies war der Beginn meiner Erkundung verschiedener Informatik/IT Themen. Daraufhin habe ich einen Online-Kurs in Web Development von Udacity als Einstieg gewählt und erfolgreich abgeschlossen."
   },
   "cv_workexperience_4_date": {
     "en": "2012 - 2015",
@@ -195,11 +195,11 @@ const englishGermanContent = {
   },
   "cv_workexperience_3_list_6": {
     "en": "Trained affiliates on product science and marketing tools",
-    "de": "Produkt- und Marketing Schulung in Tochtergesellschaften"
+    "de": "Produkt- und Marketing Schulungen in Tochtergesellschaften"
   },
   "cv_workexperience_3_list_7": {
     "en": "Supervised event management (up to 150 pax.)",
-    "de": "Verantwortung für Eventmanagement (bis zu 150 Personen)"
+    "de": "Verantwortung für Events (bis zu 150 Personen)"
   },
   "cv_workexperience_3_list_8": {
     "en": "Managed key opinion leaders",
@@ -207,7 +207,7 @@ const englishGermanContent = {
   },
   "cv_workexperience_3_list_9": {
     "en": "Managed creative agency and medical writers",
-    "de": "Betreuung von Kreativagenturen und medizinischen Autoren"
+    "de": "Betreuung von Kreativagenturen und Medical Writer"
   },
   "cv_workexperience_2_date": {
     "en": "2007 - 2008",
@@ -219,7 +219,7 @@ const englishGermanContent = {
   },
   "cv_workexperience_2_text": {
     "en": "I conducted research into active pharmaceutical ingredients where patent protection had expired, with the aim of developing them for new indications particularly those falling under the orphan-drug status. The goal was to establish a pharmaceutical trading/marketing company catering to the Swiss prescription market.",
-    "de": "Ich habe Recherchen zu aktiven pharmazeutischen Wirkstoffen mit abgelaufenem Patentschutz betrieben, mit dem Ziel, sie einzulizenzieren und für neue Indikationen weiterzuentwickeln. Das Ziel war die Gründung eines pharmazeutischen Handels- und Marketing Unternehmens, welches den Schweizer Markt für verschreibungspflichtige Medikamente bedienen sollte."
+    "de": "Ich habe aktive pharmazeutische Wirkstoffe mit abgelaufenem Patentschutz recherchiert, mit dem Ziel, diese einzulizenzieren und für neue Indikationen weiterzuentwickeln. Das Ziel war die Gründung eines pharmazeutischen Handels- und Marketing-Unternehmens, welches den Schweizer Markt für verschreibungspflichtige Medikamente bedienen sollte."
   },
   "cv_workexperience_1_date": {
     "en": "2000 - 2006",
@@ -234,12 +234,12 @@ const englishGermanContent = {
     "de": "International Medical Manager OTC"
   },
   "cv_workexperience_1_list_1": {
-    "en": "Product portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®",
-    "de": "Product portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®"
+    "en": "Produkt Portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®",
+    "de": "Produkt Portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®"
   },
   "cv_workexperience_1_list_2": {
     "en": "Created marketing strategy towards healthcare professionals",
-    "de": "Erstellung von Marketingstrategien für Ärzte und Pharmazeuten"
+    "de": "Erarbeitung von Marketingstrategien für Ärzte und Pharmazeuten"
   },
   "cv_workexperience_1_list_3": {
     "en": "Led scientific workshops and expert panels",
@@ -255,7 +255,7 @@ const englishGermanContent = {
   },
   "cv_workexperience_1_list_6": {
     "en": "Managed creative agency and medical writers",
-    "de": "Betreuung der Kreativagentur und medizinischen Autoren"
+    "de": "Betreuung der Kreativagentur und Medical Writer"
   },
   "cv_workexperience_1_list_7": {
     "en": "Managed annual budget of CHF 120k",
@@ -334,8 +334,8 @@ const englishGermanContent = {
     "de": "Proxmox VE 7.4"
   },
   "cv_csskills_list_2_heading": {
-    "en": "Linux System Administration",
-    "de": "Linux System Administration"
+    "en": "Web development",
+    "de": "Web Entwicklung"
   },
   "cv_csskills_list_2_item_1": {
     "en": "HTML 5",
