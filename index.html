@@ -13,7 +13,8 @@
   <style>
     /* chang cursor to point on hover over language buttons */
     #selectEnglish:hover,
-    #selectGerman:hover {
+    #selectGerman:hover,
+    #certifications img {
       cursor: pointer;
     }
 
@@ -74,112 +75,12 @@
   <!-- MAIN -->
   <main class="container-lg bg-light">
     <!-- ABOUT -->
-    <section id="about" class="px-3 pt-4 mb-5 px-sm-5 pt-sm-5 mb-sm-5">
+    <section id="about" class="px-3 px-sm-5 pt-4 mb-5  pt-sm-5">
       <div data-lang="about_heading" class="fs-2 fw-light mb-2">About me</div>
       <p data-lang="about_body" class="fs-6">I am a biologist by training and have worked in the pharmaceutical industry in various roles over the past 20+ years. Currently I am transitioning into the IT/Computer Science field. I have extensive experience in international medical management with a focus on strategic marketing to healthcare professionals. I have worked in Switzerland and the U.S. in cross-cultural teams, also as a team leader, and have garnered my own entrepreneurial experience in the pharmaceutical sector in the Basel region. My motivation for the professional transition stems from a profound interest in computer science and technology, as well as considerations regarding the recent developments in AI and its projected consequences on the job market. Over the last several years I have gradually acquired skills in Linux System Administration, Deep Learning/Data Science, and Web Development. Currently, I am actively seeking opportunities in the field of Linux System Administration, which I am passionate about.</p>
     </section>
-    <!-- FEATURED WORK -->
-    <section id="featured-work" class="px-3 my-5 px-sm-5 my-sm-5">
-      <div data-lang="featuredwork_heading" class="fs-2 fw-light mb-3">Featured Work</div>
-      <!-- Sudoku Solver -->
-      <div class="row align-items-center justify-content-center gy-3">
-        <div class="col-sm-10 col-md-7 col-lg-4">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <div class="card-body">
-              <div data-lang="featuredwork_card_1_heading" class="fs-5 card-title">Sudoku Solver</div>
-              <p data-lang="featuredwork_card_1_text" class="card-text">Browser based Sudoku Solver in JavaScript</p>
-              <a data-lang="featuredwork_card_1_button" href="https://thomasgrusz.github.io/sudoku-solver-js-only" target="_blank" class="btn btn-outline-secondary">Go to website</a>
-            </div>
-          </div>
-        </div>
-        <!-- Roach Panic -->
-        <div class="col-sm-10 col-md-7 col-lg-4">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <div class="card-body">
-              <div data-lang="featuredwork_card_2_heading" class="fs-5 card-title">Roach Panic</div>
-              <p data-lang="featuredwork_card_2_text" class="card-text">Browser based arcade game in JavaScript</p>
-              <a data-lang="featuredwork_card_2_button" href="https://thomasgrusz.github.io/roach-panic-game" target="_blank" class="btn btn-outline-secondary">Go to website</a>
-            </div>
-          </div>
-        </div>
-        <!-- Dog Breed Classifier -->
-        <div class="col-sm-10 col-md-7 col-lg-4">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <div class="card-body">
-              <div data-lang="featuredwork_card_3_heading" class="fs-5 card-title">Dog Breed Classifier</div>
-              <p data-lang="featuredwork_card_3_text" class="card-text">Deep neural net in Python / Pytorch</p>
-              <a data-lang="featuredwork_card_3_button" href="https://github.com/thomasgrusz/dog-breed-classifier" target="_blank" class="btn btn-outline-secondary">Go to GitHub repo</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="px-3 mt-5 mb-5 px-sm-5 my-sm-5">
-      <div data-lang="certifications_heading" class="fs-2 fw-light mb-3 mb-lg-0 mb-xxl-3">Certifications</div>
-      <div class="row align-items-end justify-content-center gy-4">
-        <!-- LPIC-1 -->
-        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <img src="assets/LPIC-1._Certification_Document.jpg" alt="Linux Professional Institute Certification 1" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-lpic1">
-            <div class="card-body">
-              <div data-lang="certifications_card_4_heading" class="fs-5 card-title">LPIC-1</div>
-              <p data-lang="certifications_card_4_text" class="card-text">March 2023</p>
-              <a data-lang="certifications_card_4_button" href="https://www.lpi.org/our-certifications/lpic-1-overview" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
-            </div>
-          </div>
-        </div>
-        <!-- Deep Learning -->
-        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <img src="assets/Deep_Learning_Certificate-Udacity.jpg" alt="Deep Learning Certificate by Udacity" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-deeplearning">
-            <div class="card-body">
-              <div data-lang="certifications_card_3_heading" class="fs-5 card-title">Deep Learning</div>
-              <p data-lang="certifications_card_3_text" class="card-text">September 2020</p>
-              <a data-lang="certifications_card_3_button" href="https://www.udacity.com/course/deep-learning-nanodegree--nd101" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
-            </div>
-          </div>
-        </div>
-        <!-- Front End Web Development -->
-        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <img src="assets/Front-End_Web_Developer_Certificate-Udacity.jpg" alt="Frontend Web Developer Certificate by Udacity" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-fend">
-            <div class="card-body">
-              <div data-lang="certifications_card_2_heading" class="fs-5 card-title">Frontend Web Development</div>
-              <p data-lang="certifications_card_2_text" class="card-text">December 2016</p>
-              <a data-lang="certifications_card_2_button" href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
-            </div>
-          </div>
-        </div>
-        <!-- MSc Biology -->
-        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
-          <!-- Card -->
-          <div class="card bg-light-subtle">
-            <img src="assets/Master_Biology_Thomas_Grusz_short.jpg" alt="Master of Biology Certificate by University of Basel" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-mscbiology">
-            <div class="card-body">
-              <div data-lang="certifications_card_1_heading" class="fs-5 card-title">MSc Biology</div>
-              <p data-lang="certifications_card_1_text" class="card-text">January 2000</p>
-              <a data-lang="certifications_card_1_button" href="https://www.unibas.ch/en" target="_blank" class="btn btn-outline-secondary">Homepage
-                University</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Download button Certificates -->
-      <div class="row justify-content-center text-center mt-5">
-        <div class="col">
-          <a data-lang="certifications_download_button" href="assets/Certifications_Thomas_Grusz.pdf" target="_blank" class="btn btn-lg btn-outline-primary">Download all certificates</a>
-        </div>
-      </div>
-    </section>
     <!-- CURICULUM VITAE -->
-    <section id="cv" class="px-3 mt-5 pb-5 px-sm-5 mt-sm-5">
+    <section id="cv" class="px-3 px-sm-5 my-5">
       <div data-lang="cv_heading" class="fs-2 fw-light mb-3">Curriculum Vitae</div>
       <nav>
         <!-- Nav Tabs -->
@@ -459,6 +360,106 @@
       <div class="row justify-content-center text-center mt-4">
         <div class="col">
           <a data-lang="cv_download_button" href="assets/CV_Thomas_Grusz_en_2023_website.pdf" target="_blank" class="btn btn-lg btn-outline-primary">Download CV</a>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURED WORK -->
+    <section id="featured-work" class="px-3 my-5 px-sm-5 my-sm-5">
+      <div data-lang="featuredwork_heading" class="fs-2 fw-light mb-3">Featured Work</div>
+      <!-- Sudoku Solver -->
+      <div class="row align-items-center justify-content-center gy-3">
+        <div class="col-sm-10 col-md-7 col-lg-4">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <div class="card-body">
+              <div data-lang="featuredwork_card_1_heading" class="fs-5 card-title">Sudoku Solver</div>
+              <p data-lang="featuredwork_card_1_text" class="card-text">Browser based Sudoku Solver in JavaScript</p>
+              <a data-lang="featuredwork_card_1_button" href="https://thomasgrusz.github.io/sudoku-solver-js-only" target="_blank" class="btn btn-outline-secondary">Go to website</a>
+            </div>
+          </div>
+        </div>
+        <!-- Roach Panic -->
+        <div class="col-sm-10 col-md-7 col-lg-4">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <div class="card-body">
+              <div data-lang="featuredwork_card_2_heading" class="fs-5 card-title">Roach Panic</div>
+              <p data-lang="featuredwork_card_2_text" class="card-text">Browser based arcade game in JavaScript</p>
+              <a data-lang="featuredwork_card_2_button" href="https://thomasgrusz.github.io/roach-panic-game" target="_blank" class="btn btn-outline-secondary">Go to website</a>
+            </div>
+          </div>
+        </div>
+        <!-- Dog Breed Classifier -->
+        <div class="col-sm-10 col-md-7 col-lg-4">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <div class="card-body">
+              <div data-lang="featuredwork_card_3_heading" class="fs-5 card-title">Dog Breed Classifier</div>
+              <p data-lang="featuredwork_card_3_text" class="card-text">Deep neural net in Python / Pytorch</p>
+              <a data-lang="featuredwork_card_3_button" href="https://github.com/thomasgrusz/dog-breed-classifier" target="_blank" class="btn btn-outline-secondary">Go to GitHub repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="px-3 px-sm-5 mt-5 pb-5">
+      <div data-lang="certifications_heading" class="fs-2 fw-light mb-3 mb-lg-0 mb-xxl-3">Certifications</div>
+      <div class="row align-items-end justify-content-center gy-4">
+        <!-- LPIC-1 -->
+        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <img src="assets/LPIC-1._Certification_Document.jpg" alt="Linux Professional Institute Certification 1" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-lpic1">
+            <div class="card-body">
+              <div data-lang="certifications_card_4_heading" class="fs-5 card-title">LPIC-1</div>
+              <p data-lang="certifications_card_4_text" class="card-text">March 2023</p>
+              <a data-lang="certifications_card_4_button" href="https://www.lpi.org/our-certifications/lpic-1-overview" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
+            </div>
+          </div>
+        </div>
+        <!-- Deep Learning -->
+        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <img src="assets/Deep_Learning_Certificate-Udacity.jpg" alt="Deep Learning Certificate by Udacity" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-deeplearning">
+            <div class="card-body">
+              <div data-lang="certifications_card_3_heading" class="fs-5 card-title">Deep Learning</div>
+              <p data-lang="certifications_card_3_text" class="card-text">September 2020</p>
+              <a data-lang="certifications_card_3_button" href="https://www.udacity.com/course/deep-learning-nanodegree--nd101" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
+            </div>
+          </div>
+        </div>
+        <!-- Front End Web Development -->
+        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <img src="assets/Front-End_Web_Developer_Certificate-Udacity.jpg" alt="Frontend Web Developer Certificate by Udacity" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-fend">
+            <div class="card-body">
+              <div data-lang="certifications_card_2_heading" class="fs-5 card-title">Frontend Web Development</div>
+              <p data-lang="certifications_card_2_text" class="card-text">December 2016</p>
+              <a data-lang="certifications_card_2_button" href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" target="_blank" class="btn btn-outline-secondary">Show curriculum</a>
+            </div>
+          </div>
+        </div>
+        <!-- MSc Biology -->
+        <div class="col-10 col-sm-6 col-md-5 col-lg-3">
+          <!-- Card -->
+          <div class="card bg-light-subtle">
+            <img src="assets/Master_Biology_Thomas_Grusz_short.jpg" alt="Master of Biology Certificate by University of Basel" class="card-img-top" data-bs-toggle="modal" data-bs-target="#modal-mscbiology">
+            <div class="card-body">
+              <div data-lang="certifications_card_1_heading" class="fs-5 card-title">MSc Biology</div>
+              <p data-lang="certifications_card_1_text" class="card-text">January 2000</p>
+              <a data-lang="certifications_card_1_button" href="https://www.unibas.ch/en" target="_blank" class="btn btn-outline-secondary">Homepage
+                University</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Download button Certificates -->
+      <div class="row justify-content-center text-center mt-4 pt-3 mb-2">
+        <div class="col">
+          <a data-lang="certifications_download_button" href="assets/Certifications_Thomas_Grusz.pdf" target="_blank" class="btn btn-lg btn-outline-primary">Download all certificates</a>
         </div>
       </div>
     </section>
