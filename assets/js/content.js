@@ -76,8 +76,8 @@ const englishGermanContent = {
     "de": "Kursinhalt anzeigen"
   },
   "certifications_card_2_heading": {
-    "en": "Frontend Web Development",
-    "de": "Frontend Web Entwickler"
+    "en": "Front End Web Development",
+    "de": "Front End Web Entwickler"
   },
   "certifications_card_2_text": {
     "en": "December 2016",
@@ -290,8 +290,8 @@ const englishGermanContent = {
     "de": "2016"
   },
   "cv_education_list_3_text": {
-    "en": "Frontend Web Developer Nanodegree - Udacity",
-    "de": "Frontend Web Developer Nanodegree - Udacity"
+    "en": "Front End Web Developer Nanodegree - Udacity",
+    "de": "Front End Web Developer Nanodegree - Udacity"
   },
   "cv_education_list_4_date": {
     "en": "1994 - 2000",
@@ -440,8 +440,8 @@ const englishGermanContent = {
   "cv_download_button": {
     "en": "Download CV",
     "de": "Lebenslauf herunterladen",
-    "en_href": "assets/CV_Thomas_Grusz_en_2023_website.pdf",
-    "de_href": "assets/CV_Thomas_Grusz_de_2023_website.pdf"
+    "en_href": "assets/pdf/CV_Thomas_Grusz_en_2023_website.pdf",
+    "de_href": "assets/pdf/CV_Thomas_Grusz_de_2023_website.pdf"
   },
   "modals-deeplearning-title": {
     "en": "Deep Learning Certificate",
