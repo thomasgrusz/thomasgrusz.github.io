@@ -435,6 +435,10 @@
     "en_href": "assets/pdf/CV_Thomas_Grusz_en_2023_website.pdf",
     "de_href": "assets/pdf/CV_Thomas_Grusz_de_2023_website.pdf"
   },
+  "modals-lpic1-title": {
+    "en": "Linux Professional Institute Certificate 1",
+    "de": "Linux Professional Institute Certificate 1"
+  },
   "modals-deeplearning-title": {
     "en": "Deep Learning Certificate",
     "de": "Deep Learning Zertifikat"
