@@ -1,4 +1,16 @@
 {
+  "languageselector_english": {
+    "en": "English",
+    "de": "Englisch"
+  },
+  "languageselector_german": {
+    "en": "Deutsch",
+    "de": "Deutsch"
+  },
+  "header_thomasgrusz": {
+    "en": "Thomas Grusz MSc",
+    "de": "Thomas Grusz MSc"
+  },
   "about_heading": {
     "en": "About me",
     "de": "Über mich"
@@ -6,108 +18,6 @@
   "about_body": {
     "en": "I am a biologist by training and have worked in the pharmaceutical industry in various roles over the past 20+ years. Currently I am transitioning into the IT/Computer Science field. I have extensive experience in international medical management with a focus on strategic marketing to healthcare professionals. I have worked in Switzerland and the U.S. in cross-cultural teams, also as a team leader, and have garnered my own entrepreneurial experience in the pharmaceutical sector in the Basel region. My motivation for the professional transition stems from a profound interest in computer science and technology, as well as considerations regarding the recent developments in AI and its projected consequences on the job market. Over the last several years I have gradually acquired skills in Linux System Administration, Deep Learning/Data Science, and Web Development. Currently, I am actively seeking opportunities in the field of Linux System Administration, which I am passionate about.",
     "de": "Als ausgebildeter Diplom Biologe war ich über die letzten 20+ Jahre in verschiedenen Funktionen in der pharmazeutischen Industrie tätig. Derzeit befinde ich mich in einer Übergangsphase, mit der Absicht, in der IT/Informatikbranche Fuss zu fassen. Ich verfüge über umfangreiche Erfahrung im internationalen Medical Management mit Schwerpunkt Strategisches Marketing. Ich habe in der Schweiz und den USA in interkulturellen Teams gearbeitet, auch als Teamleiter, und eigene unternehmerische Erfahrungen im pharmazeutischen Sektor in der Region Basel gesammelt. Meine Motivation für den beruflichen Wechsel ergibt sich aus einem profunden Interesse an Informatik und Technologie sowie aus Überlegungen zu den jüngsten Entwicklungen in der KI und ihren potentiellen Auswirkungen auf den Arbeitsmarkt. In den letzten Jahren habe ich nach und nach Fähigkeiten in den Bereichen Linux-Systemadministration, Deep Learning/Data Science und Webentwicklung erworben. Derzeit suche ich aktiv nach einer Position im Bereich Linux-Systemadministration, für die ich eine besondere Leidenschaft entwickelt habe."
-  },
-  "featuredwork_heading": {
-    "en": "Featured Work",
-    "de": "Ausgewählte Projekte"
-  },
-  "featuredwork_card_1_heading": {
-    "en": "Sudoku Solver",
-    "de": "Sudoku Löser"
-  },
-  "featuredwork_card_1_text": {
-    "en": "Browser based Sudoku Solver in JavaScript",
-    "de": "Browser basierter Sudoku Löser in JavaScript"
-  },
-  "featuredwork_card_1_button": {
-    "en": "Go to website",
-    "de": "Zur Webseite"
-  },
-  "featuredwork_card_2_heading": {
-    "en": "Roach Panic",
-    "de": "Roach Panic"
-  },
-  "featuredwork_card_2_text": {
-    "en": "Browser based arcade game in JavaScript",
-    "de": "Browser basiertes Spiel in JavaScript"
-  },
-  "featuredwork_card_2_button": {
-    "en": "Go to website",
-    "de": "Zur Webseite"
-  },
-  "featuredwork_card_3_heading": {
-    "en": "Dog Breed Classifier",
-    "de": "Hunderassenklassifikator"
-  },
-  "featuredwork_card_3_text": {
-    "en": "Deep neural net in Python / Pytorch",
-    "de": "Tiefes neuronales Netzwerk in Python / Pytorch"
-  },
-  "featuredwork_card_3_button": {
-    "en": "Go to GitHub repo",
-    "de": "Zum GitHub repo"
-  },
-  "certifications_heading": {
-    "en": "Certifications",
-    "de": "Zertifizierungen"
-  },
-  "certifications_card_4_heading": {
-    "en": "LPIC-1",
-    "de": "LPIC-1"
-  },
-  "certifications_card_4_text": {
-    "en": "March 2023",
-    "de": "März 2023"
-  },
-  "certifications_card_4_button": {
-    "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
-  },
-  "certifications_card_3_heading": {
-    "en": "Deep Learning",
-    "de": "Deep Learning"
-  },
-  "certifications_card_3_text": {
-    "en": "September 2020",
-    "de": "September 2020"
-  },
-  "certifications_card_3_button": {
-    "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
-  },
-  "certifications_card_2_heading": {
-    "en": "Front End Web Development",
-    "de": "Front End Web Entwickler"
-  },
-  "certifications_card_2_text": {
-    "en": "December 2016",
-    "de": "Dezember 2016"
-  },
-  "certifications_card_2_button": {
-    "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
-  },
-  "certifications_card_1_heading": {
-    "en": "MSc Biology",
-    "de": "Biologie Diplom"
-  },
-  "certifications_card_1_text": {
-    "en": "January 2000",
-    "de": "Januar 2000"
-  },
-  "certifications_card_1_button": {
-    "en": "University homepage",
-    "de": "Homepage Uni Basel",
-    "en_href": "https://www.unibas.ch/en",
-    "de_href": "https://www.unibas.ch/de"
-  },
-  "certifications_download_button": {
-    "en": "Download all certificates",
-    "de": "Alle Zertifikate herunterladen"
-  },
-  "cv_heading": {
-    "en": "Curriculum Vitae",
-    "de": "Lebenslauf"
   },
   "cv_navtab_1": {
     "en": "Work experience",
@@ -434,6 +344,112 @@
     "de": "Lebenslauf herunterladen",
     "en_href": "assets/pdf/CV_Thomas_Grusz_en_2023_website.pdf",
     "de_href": "assets/pdf/CV_Thomas_Grusz_de_2023_website.pdf"
+  },
+  "featuredwork_heading": {
+    "en": "Featured Work",
+    "de": "Ausgewählte Projekte"
+  },
+  "featuredwork_card_1_heading": {
+    "en": "Sudoku Solver",
+    "de": "Sudoku Löser"
+  },
+  "featuredwork_card_1_text": {
+    "en": "Browser based Sudoku Solver in JavaScript",
+    "de": "Browser basierter Sudoku Löser in JavaScript"
+  },
+  "featuredwork_card_1_button": {
+    "en": "Go to website",
+    "de": "Zur Webseite"
+  },
+  "featuredwork_card_2_heading": {
+    "en": "Roach Panic",
+    "de": "Roach Panic"
+  },
+  "featuredwork_card_2_text": {
+    "en": "Browser based arcade game in JavaScript",
+    "de": "Browser basiertes Spiel in JavaScript"
+  },
+  "featuredwork_card_2_button": {
+    "en": "Go to website",
+    "de": "Zur Webseite"
+  },
+  "featuredwork_card_3_heading": {
+    "en": "Dog Breed Classifier",
+    "de": "Hunderassenklassifikator"
+  },
+  "featuredwork_card_3_text": {
+    "en": "Deep neural net in Python / Pytorch",
+    "de": "Tiefes neuronales Netzwerk in Python / Pytorch"
+  },
+  "featuredwork_card_3_button": {
+    "en": "Go to GitHub repo",
+    "de": "Zum GitHub repo"
+  },
+  "certifications_heading": {
+    "en": "Certifications",
+    "de": "Zertifizierungen"
+  },
+  "certifications_card_4_heading": {
+    "en": "LPIC-1",
+    "de": "LPIC-1"
+  },
+  "certifications_card_4_text": {
+    "en": "March 2023",
+    "de": "März 2023"
+  },
+  "certifications_card_4_button": {
+    "en": "Show curriculum",
+    "de": "Kursinhalt anzeigen"
+  },
+  "certifications_card_3_heading": {
+    "en": "Deep Learning",
+    "de": "Deep Learning"
+  },
+  "certifications_card_3_text": {
+    "en": "September 2020",
+    "de": "September 2020"
+  },
+  "certifications_card_3_button": {
+    "en": "Show curriculum",
+    "de": "Kursinhalt anzeigen"
+  },
+  "certifications_card_2_heading": {
+    "en": "Front End Web Development",
+    "de": "Front End Web Entwickler"
+  },
+  "certifications_card_2_text": {
+    "en": "December 2016",
+    "de": "Dezember 2016"
+  },
+  "certifications_card_2_button": {
+    "en": "Show curriculum",
+    "de": "Kursinhalt anzeigen"
+  },
+  "certifications_card_1_heading": {
+    "en": "MSc Biology",
+    "de": "Biologie Diplom"
+  },
+  "certifications_card_1_text": {
+    "en": "January 2000",
+    "de": "Januar 2000"
+  },
+  "certifications_card_1_button": {
+    "en": "University homepage",
+    "de": "Homepage Uni Basel",
+    "en_href": "https://www.unibas.ch/en",
+    "de_href": "https://www.unibas.ch/de"
+  },
+  "certifications_download_button": {
+    "en": "Download all certificates",
+    "de": "Alle Zertifikate herunterladen"
+  },
+  "cv_heading": {
+    "en": "Curriculum Vitae",
+    "de": "Lebenslauf"
+  },
+  "footer_lastupdate_message": {
+    "en": "Last update: September 2023",
+    "de": "Letzte Aktualisierung: September 2023"
   },
   "modals-lpic1-title": {
     "en": "Linux Professional Institute Certificate 1",

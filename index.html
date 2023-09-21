@@ -46,17 +46,17 @@
   </style>
 </head>
 
-<body class="bg-white">
+<body class="bg-white d-none">
 
   <!-- LANGUAGE SELECTOR -->
   <div class="container-lg">
     <div class="row justify-content-center">
       <div class="col-5 col-md-4">
         <div class="row justify-content-center my-3 text-center text-center fs-6">
-          <div id="selectEnglish" class="col-6 col-sm-5 col-lg-4 col-xl-3  p-2 border-top border-start border-bottom border-1 rounded-start-3 fw-semibold text-light bg-info">
+          <div data-lang="languageselector_english" id="selectEnglish" class="col-6 col-sm-5 col-lg-4 col-xl-3  p-2 border-top border-start border-bottom border-1 rounded-start-3 fw-semibold text-light bg-info">
             English
           </div>
-          <div id="selectGerman" class="col-6 col-sm-5 col-lg-4 col-xl-3  p-2 border-top border-end border-bottom border-1 rounded-end-3 text-dark bg-light">
+          <div data-lang="languageselector_german" id="selectGerman" class="col-6 col-sm-5 col-lg-4 col-xl-3  p-2 border-top border-end border-bottom border-1 rounded-end-3 text-dark bg-light">
             Deutsch</div>
         </div>
       </div>
@@ -68,7 +68,7 @@
     <div class="container-lg">
       <!-- Hero -->
       <div class="row text-center align-items-center">
-        <div class="col-sm-8 py-2 display-4 fw-lighter">Thomas Grusz MSc</div>
+        <div data-lang="header_thomasgrusz" class="col-sm-8 py-2 display-4 fw-lighter">Thomas Grusz MSc</div>
         <div class="col-sm-4 pt-2 pt-sm-4 pb-4">
           <img id="portrait" src="assets/img/thg_140x140.jpeg" alt="Portrait of Thomas Grusz" class="img-fluid rounded-circle">
         </div>
@@ -479,8 +479,8 @@
       </div>
     </div>
     <!-- Last Update Info -->
-    <div class="row py-5">
-      <div class="fs-6 fst-italic">Last update:<span class="ps-3">September 2023</span></div>
+    <div class="row py-5 text-center">
+      <div data-lang="footer_lastupdate_message" class="col fs-6 fst-italic p-0">PLACEHOLDER-TEXT</div>
     </div>
   </footer>
   <!-- MODALS -->
@@ -612,6 +612,7 @@
         .then(data => {
           englishGermanContent = data;
           populateHTMLcontent("en");  // initial content injection - "en" for English, "de" for German
+          document.getElementsByTagName('body')[0].classList.remove("d-none"); // make site visible
         })
         .catch(error => {
           console.error('Error loading JSON:', error);
