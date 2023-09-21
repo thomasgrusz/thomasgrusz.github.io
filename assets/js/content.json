@@ -1,4 +1,4 @@
-const englishGermanContent = {
+{
   "about_heading": {
     "en": "About me",
     "de": "Über mich"

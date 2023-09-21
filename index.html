@@ -555,31 +555,30 @@
     <script>
       new bootstrap.Tooltip(document.getElementById('email'));
     </script>
-    <!-- Load JavaScript object containing site content for language switching -->
-    <script src="assets/js/content.js"></script>
-    <!-- Language switching logic -->
+
+    <!-- Load the site content and populate site -->
+    <!-- This code also contains the logic for switching languages using the selector buttons at the top of the page -->
     <script>
-      // get all html elements with english/german text (i.e. data-lan attribute)
+      // get all html elements with english/german text (i.e. data-lang attribute)
       const contentElements = document.querySelectorAll("[data-lang]");
       // get English button
       const selectEnglish = document.getElementById("selectEnglish");
       // get German button
       const selectGerman = document.getElementById("selectGerman");
 
-      // Function to populate HTML elements with content based on the selected language
+      // declare variable to store site content loaded from JSON file
+      let englishGermanContent
+
+      // function to populate HTML elements with content based on the selected language
       function populateHTMLcontent(language) {
         contentElements.forEach((element) => {
           const translationKey = element.dataset.lang;
           // Check if there is a content entry for the selected language and apply
           if (englishGermanContent[translationKey][language]) {
-            // console.log(language);
-            // console.log(translationKey);
-            // console.log(englishGermanContent[translationKey][language]);
             element.textContent = englishGermanContent[translationKey][language];
           }
           // Check if there is a hyperlink entry for the selected language and apply
           if (englishGermanContent[translationKey][`${language}_href`]) {
-            // console.log(englishGermanContent[translationKey][`${language}_href`]);
             element.href = englishGermanContent[translationKey][`${language}_href`];
           }
         });
@@ -587,6 +586,7 @@
         changeButtonColor(language);
       }
 
+      // function to change color of language selector buttons
       function changeButtonColor(language) {
         if (language === 'en') {
           selectEnglish.classList.add("fw-semibold", "text-light", "bg-info")
@@ -601,18 +601,26 @@
         }
       }
 
-      // add eventlistener for switching to English
+      // add eventlistener for switching to English to button
       selectEnglish.addEventListener("click", () => {
         populateHTMLcontent("en");
       });
-      // add eventlistener for switching to German
+      // add eventlistener for switching to German to button
       selectGerman.addEventListener("click", () => {
         populateHTMLcontent("de");
       });
-    </script>
-    <script>
-      // Initial dynamic population of HTML content from /assets/js/contents.js, this is to ensure the latest data is displayed, as orignial html placeholder text may have become stale. "en" = english, "de" = german.
-      populateHTMLcontent("en");
+
+      // load site content from JSON file and store it in "englishGermanContent" variable
+      // then populate the site with English content
+      fetch('./assets/js/content.json')
+        .then(response => response.json())
+        .then(data => {
+          englishGermanContent = data;
+          populateHTMLcontent("en");  // initial content injection - "en" for English, "de" for German
+        })
+        .catch(error => {
+          console.error('Error loading JSON:', error);
+        });
     </script>
   </section>
 </body>
