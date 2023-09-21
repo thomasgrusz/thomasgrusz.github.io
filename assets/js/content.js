@@ -269,14 +269,6 @@ const englishGermanContent = {
     "en": "Linux System Administration LPIC-1 - LPI",
     "de": "Linux System Administration LPIC-1 - LPI"
   },
-  "cv_education_list_1_date": {
-    "en": "2023",
-    "de": "2023"
-  },
-  "cv_education_list_1_text": {
-    "en": "Linux System Administration LPIC-1 - LPI",
-    "de": "Linux System Administration LPIC-1 - LPI"
-  },
   "cv_education_list_2_date": {
     "en": "2020",
     "de": "2020"
