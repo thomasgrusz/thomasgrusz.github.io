@@ -571,9 +571,6 @@
       // get German button
       const selectGerman = document.getElementById("selectGerman");
 
-      // declare variable to store site content loaded from JSON file
-      let englishGermanContent
-
       // function to populate HTML elements with content based on the selected language
       function populateHTMLcontent(language) {
         contentElements.forEach((element) => {
@@ -617,6 +614,7 @@
 
       // load site content from JSON file and store it in "englishGermanContent" variable
       // then populate the site with English content
+      let englishGermanContent
       fetch('./assets/content.json')
         .then(response => response.json())
         .then(data => {
@@ -626,6 +624,12 @@
         })
         .catch(error => {
           console.error('Error loading JSON:', error);
+          document.body.innerHTML = `
+          <div class="row text-center align-items-center" style="height: 100vh">
+            <h1 class="col display-5">Oooops....something went wrong!</h1>
+          </div>`
+            ;
+          document.body.classList.remove('fade');
         });
     </script>
   </section>
