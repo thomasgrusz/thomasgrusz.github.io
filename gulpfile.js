@@ -1,12 +1,12 @@
 const gulp = require('gulp');
-const del = require('del');
+const { rimraf } = require('rimraf');
 const htmlmin = require('gulp-htmlmin');
 const cleanCSS = require('gulp-clean-css');
 const cleanJS = require('gulp-terser');
 
 // Function to delete /assets folder and index.html file at root
 function clean() {
-  return del(['./assets', './favicons', './index.html', './css']);
+  return rimraf(['./assets', './favicons', './index.html', './css']);
 }
 
 // Function to copy the folder /src/assets to root
