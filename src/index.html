@@ -12,49 +12,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
   <link rel="manifest" href="./favicons/site.webmanifest">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-  <style>
-    /* CSS for fade-in transition */
-    body {
-      opacity: 1;
-      transition: opacity 0.3s ease-in-out;
-    }
 
-    body.fade {
-      opacity: 0;
-    }
-
-    /* chang cursor to point on hover over language buttons */
-    #selectEnglish:hover,
-    #selectGerman:hover,
-    #certifications img {
-      cursor: pointer;
-    }
-
-    /* Animate card image on hover to scale up slightly in size */
-    .card-img-top {
-      transition: 0.2s ease;
-    }
-
-    .card-img-top:hover {
-      transform: scale(1.05);
-    }
-
-    /* Cumstom styling for email tooltip in footer */
-    .custom-tooltip .tooltip-inner {
-      max-width: 230px;
-    }
-
-    /* Split About section into two columns on large screens */
-    /* @media screen and (min-width: 992px) { */
-    @media screen and (min-width: 768px) {
-      #about p {
-        column-count: 2;
-        column-gap: 40px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="fade">
@@ -557,85 +519,15 @@
   <section>
     <!-- Load Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <!-- Enable tooltip -->
+
+    <!-- Enable tooltip - check css/style.css .custom-tooltip for details -->
     <script>
       new bootstrap.Tooltip(document.getElementById('email'));
     </script>
 
     <!-- Load the site content and populate site -->
     <!-- This code also contains the logic for switching languages using the selector buttons at the top of the page -->
-    <script>
-      // get all html elements with english/german text (i.e. data-lang attribute)
-      const contentElements = document.querySelectorAll("[data-lang]");
-      // get English button
-      const selectEnglish = document.getElementById("selectEnglish");
-      // get German button
-      const selectGerman = document.getElementById("selectGerman");
-
-      // function to populate HTML elements with content based on the selected language
-      function populateHTMLcontent(language) {
-        contentElements.forEach((element) => {
-          const translationKey = element.dataset.lang;
-          // Check if there is a content entry for the selected language and apply
-          if (englishGermanContent[translationKey][language]) {
-            element.textContent = englishGermanContent[translationKey][language];
-          }
-          // Check if there is a hyperlink entry for the selected language and apply
-          if (englishGermanContent[translationKey][`${language}_href`]) {
-            element.href = englishGermanContent[translationKey][`${language}_href`];
-          }
-        });
-        // Change colors of language selector buttons
-        changeButtonColor(language);
-      }
-
-      // function to change color of language selector buttons
-      function changeButtonColor(language) {
-        if (language === 'en') {
-          selectEnglish.classList.add("fw-semibold", "text-light", "bg-info")
-          selectEnglish.classList.remove("bg-light")
-          selectGerman.classList.add("text-dark", "bg-light")
-          selectGerman.classList.remove("fw-semibold", "text-light", "bg-info");
-        } else {
-          selectEnglish.classList.remove("fw-semibold", "text-light", "bg-info")
-          selectEnglish.classList.add("bg-light")
-          selectGerman.classList.remove("text-dark", "bg-light")
-          selectGerman.classList.add("fw-semibold", "text-light", "bg-info");
-        }
-      }
-
-      // add eventlistener for switching to English to button
-      selectEnglish.addEventListener("click", () => {
-        populateHTMLcontent("en");
-      });
-      // add eventlistener for switching to German to button
-      selectGerman.addEventListener("click", () => {
-        populateHTMLcontent("de");
-      });
-
-      // load site content from JSON file and store it in "englishGermanContent" variable
-      // then populate the site with English content
-      let englishGermanContent
-
-      async function fetchJSON() {
-        try {
-          const response = await fetch('./assets/content.json');
-          englishGermanContent = await response.json();
-          populateHTMLcontent("en");  // initial content injection - "en" for English, "de" for German
-          document.body.classList.remove("fade"); // make site visible
-        }
-        catch (err) {
-          console.log('Error leading JSON: error');
-          document.body.innerHTML = `
-          <div class="row text-center align-items-center" style="height: 100vh">
-            <h1 class="col display-5">Oooops....something went wrong!</h1>
-          </div>`
-            ;
-          document.body.classList.remove('fade');
-        }
-      }
-      fetchJSON();
-    </script>
+    <script src="./js/main.js"></script>
   </section>
 </body>
 
