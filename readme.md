@@ -8,7 +8,7 @@
 ## Project structure and Gulp
 
 Development files are located in the `src/` folder.
-The minified files for production are located at root `/`.
+The minified files for production are located at root `./`.
 
 Run
 
@@ -24,7 +24,7 @@ Run
 npx gulp
 ```
 
-to minify and copy `scr` files to root `/` for production.
+to minify and copy `scr` files to root `./` for production and start watching the `src/` folder for changes. When files or folders change within `src/`, all files will again be copied/minified to root `./`.
 
 If you have `gulp-cli` installed _globally_ on your system, you can run
 
