@@ -63,7 +63,7 @@ async function fetchJSON() {
     populateHTMLcontent('en'); // initial content injection - "en" for English, "de" for German
     document.body.classList.remove('fade'); // make site visible
   } catch (err) {
-    console.log('Error leading JSON: error');
+    console.log('Error loading JSON:', err);
     document.body.innerHTML = `
       <div class="row text-center align-items-center" style="height: 100vh">
         <h1 class="col display-5">Oooops....something went wrong!</h1>
