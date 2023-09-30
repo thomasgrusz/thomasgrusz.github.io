@@ -55,7 +55,7 @@ let englishGermanContent;
 
 async function fetchJSON() {
   try {
-    const response = await fetch('./assets/content.json');
+    const response = await fetch('./data/content.json');
     englishGermanContent = await response.json();
     populateHTMLcontent('en'); // initial content injection - "en" for English, "de" for German
     document.body.classList.remove('fade'); // make site visible

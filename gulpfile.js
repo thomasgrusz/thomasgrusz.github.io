@@ -2,6 +2,7 @@ import { deleteSync } from 'del';
 import gulp from 'gulp';
 import cleanCss from 'gulp-clean-css';
 import htmlmin from 'gulp-htmlmin';
+import jsonmin from 'gulp-json-minify';
 import cleanJs from 'gulp-terser';
 
 // Function to delete /assets folder and index.html file at root
@@ -40,5 +41,13 @@ export function minifyJS() {
   return gulp.src('./src/js/*.js').pipe(cleanJs()).pipe(gulp.dest('./js'));
 }
 
+// Function to minify ./src/data/content.json and save in ./data
+export function minifyJSON() {
+  return gulp
+    .src('./src/data/content.json')
+    .pipe(jsonmin())
+    .pipe(gulp.dest('./data'));
+}
+
 // Default task
-export default gulp.series(clean, gulp.parallel(copyAssets, copyFavicons, minifyHTML, minifyCSS, minifyJS));
+export default gulp.series(clean, gulp.parallel(copyAssets, copyFavicons, minifyHTML, minifyCSS, minifyJS, minifyJSON));
