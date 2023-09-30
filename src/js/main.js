@@ -1,3 +1,6 @@
+// Enable tooltip for email address in the footer - check css/style.css .custom-tooltip for details
+new bootstrap.Tooltip(document.getElementById('email'));
+
 // Load the site content and populate site
 // This code also contains the logic for switching languages using the selector buttons at the top of the page
 
