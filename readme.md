@@ -16,7 +16,7 @@ Run
 npm install
 ```
 
-to install all development dependecies. Make sure that `npm` and `node.js` are installed on your system.
+to install all development dependencies. Make sure that `npm` and `node.js` are installed on your system.
 
 Run
 
@@ -26,7 +26,7 @@ npx gulp
 
 to minify and copy `scr` files to root `/` for production.
 
-If you have `gulp` installed _globally_ on your system, you can just run
+If you have `gulp-cli` installed _globally_ on your system, you can run
 
 ```
 gulp
