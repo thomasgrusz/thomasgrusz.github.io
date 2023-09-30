@@ -40,11 +40,11 @@ function changeButtonColor(language) {
   }
 }
 
-// add eventlistener for switching to English to button
+// add event listener for switching to English to button
 selectEnglish.addEventListener('click', () => {
   populateHTMLcontent('en');
 });
-// add eventlistener for switching to German to button
+// add event listener for switching to German to button
 selectGerman.addEventListener('click', () => {
   populateHTMLcontent('de');
 });
