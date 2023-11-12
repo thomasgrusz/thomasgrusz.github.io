@@ -1,0 +1,19 @@
+{
+  "name": "homepage-thg",
+  "version": "0.1.0",
+  "description": "Rewrite of thg homepage using parcel and bootstrap",
+  "source": "src/index.html",
+  "scripts": {
+    "devStart": "parcel",
+    "build": "rm -rf dist && parcel build"
+  },
+  "keywords": [],
+  "author": "Thomas Grusz",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
