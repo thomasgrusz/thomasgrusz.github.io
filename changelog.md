@@ -50,3 +50,7 @@ touch src/{scss/main.scss, js/main.js}
 One of the most important files is `content.js` and it has been copied into `src/assets/`. This file contains all the content of the page in `json` format in two languages, English and German.
 
 The `img` and `pdf` folders have populated with the necessary artwork.
+
+### Start rebuilding site
+
+Shorten certain keys in `content.json` where sensible.

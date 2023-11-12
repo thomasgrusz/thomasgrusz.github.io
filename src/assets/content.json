@@ -20,12 +20,12 @@
     "de": "Schweiz"
   },
   "header_homepage": {
-    "en": "Homepage:      thomasgrusz.com",
-    "de": "Homepage:      thomasgrusz.ch"
+    "en": "Homepage: thomasgrusz.com",
+    "de": "Homepage: thomasgrusz.ch"
   },
   "header_email": {
-    "en": "Email:               thomas.grusz@protonmail.com",
-    "de": "Email:               thomas.grusz@protonmail.com"
+    "en": "Email: thomas.grusz@protonmail.com",
+    "de": "Email: thomas.grusz@protonmail.com"
   },
   "about_heading": {
     "en": "About me",
@@ -48,7 +48,7 @@
     "de": "Bildung"
   },
   "cv_navtab_3": {
-    "en": "Computer skills",
+    "en": "Computer Science / IT",
     "de": "Informatik"
   },
   "cv_navtab_4": {
@@ -103,39 +103,39 @@
     "en": "International Product Manager Rx",
     "de": "International Product Manager Rx"
   },
-  "cv_workexperience_3_list_1": {
+  "cv_workexperience_3_1": {
     "en": "Product portfolio: Asacol®​​, Colpermin®​​, Simtomax®",
     "de": "Product portfolio: Asacol®​​, Colpermin®​​, Simtomax®"
   },
-  "cv_workexperience_3_list_2": {
+  "cv_workexperience_3_2": {
     "en": "Achieved portfolio sales growth of CAGR 2009-2011: 15.6%",
     "de": "Portfolio-Umsatz Wachstumsrate (CAGR) von 2009-2011: 15.6%"
   },
-  "cv_workexperience_3_list_3": {
+  "cv_workexperience_3_3": {
     "en": "Led a team with three direct reports",
     "de": "Leitung eines Teams mit 3 direkten Mitarbeitern"
   },
-  "cv_workexperience_3_list_4": {
+  "cv_workexperience_3_4": {
     "en": "Managed yearly budget of CHF 800k",
     "de": "Verwaltung eines jährlichen Budgets von CHF 800.000"
   },
-  "cv_workexperience_3_list_5": {
+  "cv_workexperience_3_5": {
     "en": "Created international marketing strategies and platform tools",
     "de": "Erstellung internationaler Marketingstrategien und Promotionsmaterial"
   },
-  "cv_workexperience_3_list_6": {
+  "cv_workexperience_3_6": {
     "en": "Trained affiliates on product science and marketing tools",
     "de": "Produkt- und Marketing Schulungen in Tochtergesellschaften"
   },
-  "cv_workexperience_3_list_7": {
+  "cv_workexperience_3_7": {
     "en": "Supervised event management (up to 150 pax.)",
     "de": "Verantwortung für Events (bis zu 150 Personen)"
   },
-  "cv_workexperience_3_list_8": {
+  "cv_workexperience_3_8": {
     "en": "Managed key opinion leaders",
     "de": "Betreuung von Meinungsbildnern"
   },
-  "cv_workexperience_3_list_9": {
+  "cv_workexperience_3_9": {
     "en": "Managed creative agency and medical writers",
     "de": "Betreuung von Kreativagenturen und Medical Writer"
   },
@@ -163,199 +163,199 @@
     "en": "International Medical Manager OTC",
     "de": "International Medical Manager OTC"
   },
-  "cv_workexperience_1_list_1": {
+  "cv_workexperience_1_1": {
     "en": "Produkt Portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®",
     "de": "Produkt Portfolio: Rennie®​​, Talcid®​​, Alka-Seltzer​®"
   },
-  "cv_workexperience_1_list_2": {
+  "cv_workexperience_1_2": {
     "en": "Created marketing strategy towards healthcare professionals",
     "de": "Erarbeitung von Marketingstrategien für Ärzte und Pharmazeuten"
   },
-  "cv_workexperience_1_list_3": {
+  "cv_workexperience_1_3": {
     "en": "Led scientific workshops and expert panels",
     "de": "Leitung von wissenschaftlichen Workshops und Expertengruppen"
   },
-  "cv_workexperience_1_list_4": {
+  "cv_workexperience_1_4": {
     "en": "Managed key opinion leaders",
     "de": "Betreuung von Meinungsbildnern"
   },
-  "cv_workexperience_1_list_5": {
+  "cv_workexperience_1_5": {
     "en": "Drove new publications in peer-reviewed medical journals",
     "de": "Förderung neuer Veröffentlichungen in relevanten Fachjournalen"
   },
-  "cv_workexperience_1_list_6": {
+  "cv_workexperience_1_6": {
     "en": "Managed creative agency and medical writers",
     "de": "Betreuung der Kreativagentur und Medical Writer"
   },
-  "cv_workexperience_1_list_7": {
+  "cv_workexperience_1_7": {
     "en": "Managed annual budget of CHF 120k",
     "de": "Verwaltung eines jährlichen Budgets von CHF 120.000"
   },
-  "cv_education_list_1_date": {
+  "cv_education_5_date": {
     "en": "2023",
     "de": "2023"
   },
-  "cv_education_list_1_text": {
+  "cv_education_5_text": {
     "en": "Linux System Administration LPIC-1 - LPI",
     "de": "Linux System Administration LPIC-1 - LPI"
   },
-  "cv_education_list_2_date": {
+  "cv_education_4_date": {
     "en": "2020",
     "de": "2020"
   },
-  "cv_education_list_2_text": {
+  "cv_education_4_text": {
     "en": "Deep Learning Nanodegree - Udacity",
     "de": "Deep Learning Nanodegree - Udacity"
   },
-  "cv_education_list_3_date": {
+  "cv_education_3_date": {
     "en": "2016",
     "de": "2016"
   },
-  "cv_education_list_3_text": {
+  "cv_education_3_text": {
     "en": "Front End Web Developer Nanodegree - Udacity",
     "de": "Front End Web Developer Nanodegree - Udacity"
   },
-  "cv_education_list_4_date": {
+  "cv_education_2_date": {
     "en": "1994 - 2000",
     "de": "1994 - 2000"
   },
-  "cv_education_list_4_text": {
+  "cv_education_2_text": {
     "en": "MSc. Biology - University of Basel",
     "de": "Diplom Biologie - Universität Basel"
   },
-  "cv_education_list_5_date": {
+  "cv_education_1_date": {
     "en": "1993 - 1994",
     "de": "1993 - 1994"
   },
-  "cv_education_list_5_text": {
+  "cv_education_1_text": {
     "en": "Studies in Economics - University of Basel",
     "de": "Studium der Wirtschaftswissenschaften - Universität Basel"
   },
-  "cv_csskills_list_1_heading": {
+  "cv_csskills_1_heading": {
     "en": "Linux System Administration",
     "de": "Linux System Administration"
   },
-  "cv_csskills_list_1_item_1": {
+  "cv_csskills_1_1": {
     "en": "Rocky Linux Server 8 (RHEL clone)",
     "de": "Rocky Linux Server 8 (RHEL clone)"
   },
-  "cv_csskills_list_1_item_2": {
+  "cv_csskills_1_2": {
     "en": "Ubuntu Server 22.04 LTS",
     "de": "Ubuntu Server 22.04 LTS"
   },
-  "cv_csskills_list_1_item_3": {
+  "cv_csskills_1_3": {
     "en": "openSuse Leap 15.4",
     "de": "openSuse Leap 15.4"
   },
-  "cv_csskills_list_1_item_4": {
+  "cv_csskills_1_4": {
     "en": "Arch Linux",
     "de": "Arch Linux"
   },
-  "cv_csskills_list_1_item_5": {
+  "cv_csskills_1_5": {
     "en": "Proxmox VE 7.4",
     "de": "Proxmox VE 7.4"
   },
-  "cv_csskills_list_2_heading": {
+  "cv_csskills_2_heading": {
     "en": "Web development",
     "de": "Web Entwicklung"
   },
-  "cv_csskills_list_2_item_1": {
+  "cv_csskills_2_1": {
     "en": "HTML 5",
     "de": "HTML 5"
   },
-  "cv_csskills_list_2_item_2": {
+  "cv_csskills_2_2": {
     "en": "CSS 3",
     "de": "CSS 3"
   },
-  "cv_csskills_list_2_item_3": {
+  "cv_csskills_2_3": {
     "en": "JavaScript ES6",
     "de": "JavaScript ES6"
   },
-  "cv_csskills_list_3_heading": {
+  "cv_csskills_3_heading": {
     "en": "Deep Learning",
     "de": "Deep Learning"
   },
-  "cv_csskills_list_3_item_1": {
+  "cv_csskills_3_1": {
     "en": "Python 3",
     "de": "Python 3"
   },
-  "cv_csskills_list_3_item_2": {
+  "cv_csskills_3_2": {
     "en": "Jupyter Notebook",
     "de": "Jupyter Notebook"
   },
-  "cv_csskills_list_3_item_3": {
+  "cv_csskills_3_3": {
     "en": "Numpy, Pandas, Matplotlib",
     "de": "Numpy, Pandas, Matplotlib"
   },
-  "cv_csskills_list_3_item_4": {
+  "cv_csskills_3_4": {
     "en": "Pytorch, Keras, Scikit-Learn",
     "de": "Pytorch, Keras, Scikit-Learn"
   },
-  "cv_csskills_list_3_item_5": {
+  "cv_csskills_3_5": {
     "en": "AWS Sagemaker (basic)",
     "de": "AWS Sagemaker (Basiswissen)"
   },
-  "cv_csskills_list_4_heading": {
+  "cv_csskills_4_heading": {
     "en": "Miscellaneous",
     "de": "Sonstiges"
   },
-  "cv_csskills_list_4_item_1": {
+  "cv_csskills_4_1": {
     "en": "Git / Github",
     "de": "Git / Github"
   },
-  "cv_csskills_list_4_item_2": {
+  "cv_csskills_4_2": {
     "en": "Visual Studio Code",
     "de": "Visual Studio Code"
   },
-  "cv_csskills_list_4_item_3": {
+  "cv_csskills_4_3": {
     "en": "Vim",
     "de": "Vim"
   },
-  "cv_csskills_list_4_item_4": {
+  "cv_csskills_4_4": {
     "en": "Agile development philosophy - SCRUM (familiar)",
     "de": "Agile Entwicklungsphilosophie - SCRUM (geläufig)"
   },
-  "cv-personaldata-list_1_heading": {
+  "cv-personaldata-1_heading": {
     "en": "Nationality",
     "de": "Nationalität"
   },
-  "cv-personaldata-list_1_item_1": {
+  "cv-personaldata-1_1": {
     "en": "Swiss / Belgian",
     "de": "Schweiz / Belgien"
   },
-  "cv-personaldata-list_2_heading": {
+  "cv-personaldata-2_heading": {
     "en": "Languages",
     "de": "Sprachkenntnisse"
   },
-  "cv-personaldata-list_2_item_1_1": {
+  "cv-personaldata-2_1_1": {
     "en": "German",
     "de": "Deutsch"
   },
-  "cv-personaldata-list_2_item_1_2": {
+  "cv-personaldata-2_1_2": {
     "en": "native",
     "de": "Muttersprache"
   },
-  "cv-personaldata-list_2_item_2_1": {
+  "cv-personaldata-2_2_1": {
     "en": "English",
     "de": "Englisch"
   },
-  "cv-personaldata-list_2_item_2_2": {
+  "cv-personaldata-2_2_2": {
     "en": "fluent written and spoken",
     "de": "fliessend in Wort und Schrift"
   },
-  "cv-personaldata-list_2_item_3_1": {
+  "cv-personaldata-2_3_1": {
     "en": "French",
     "de": "Französisch"
   },
-  "cv-personaldata-list_2_item_3_2": {
+  "cv-personaldata-2_3_2": {
     "en": "intermediate written and spoken",
     "de": "mittleres Niveau in Wort und Schrift"
   },
-  "cv-personaldata-list_2_item_4_1": {
+  "cv-personaldata-2_4_1": {
     "en": "Spanish",
     "de": "Spanisch"
   },
-  "cv-personaldata-list_2_item_4_2": {
+  "cv-personaldata-2_4_2": {
     "en": "elementary spoken",
     "de": "mündliche Basiskenntnisse"
   },
@@ -369,39 +369,39 @@
     "en": "Featured Work",
     "de": "Ausgewählte Projekte"
   },
-  "featuredwork_card_1_heading": {
+  "featuredwork_1_heading": {
     "en": "Sudoku Solver",
     "de": "Sudoku Löser"
   },
-  "featuredwork_card_1_text": {
+  "featuredwork_1_text": {
     "en": "Browser based Sudoku Solver in JavaScript",
     "de": "Browser basierter Sudoku Löser in JavaScript"
   },
-  "featuredwork_card_1_button": {
+  "featuredwork_1_button": {
     "en": "Go to website",
     "de": "Zur Webseite"
   },
-  "featuredwork_card_2_heading": {
+  "featuredwork_2_heading": {
     "en": "Roach Panic",
     "de": "Roach Panic"
   },
-  "featuredwork_card_2_text": {
+  "featuredwork_2_text": {
     "en": "Browser based arcade game in JavaScript",
     "de": "Browser basiertes Spiel in JavaScript"
   },
-  "featuredwork_card_2_button": {
+  "featuredwork_2_button": {
     "en": "Go to website",
     "de": "Zur Webseite"
   },
-  "featuredwork_card_3_heading": {
+  "featuredwork_3_heading": {
     "en": "Dog Breed Classifier",
     "de": "Hunderassenklassifikator"
   },
-  "featuredwork_card_3_text": {
+  "featuredwork_3_text": {
     "en": "Deep neural net in Python / Pytorch",
     "de": "Tiefes neuronales Netzwerk in Python / Pytorch"
   },
-  "featuredwork_card_3_button": {
+  "featuredwork_3_button": {
     "en": "Go to GitHub repo",
     "de": "Zum GitHub repo"
   },
@@ -409,51 +409,51 @@
     "en": "Certifications",
     "de": "Zertifizierungen"
   },
-  "certifications_card_4_heading": {
+  "certifications_4_heading": {
     "en": "LPIC-1",
     "de": "LPIC-1"
   },
-  "certifications_card_4_text": {
+  "certifications_4_text": {
     "en": "March 2023",
     "de": "März 2023"
   },
-  "certifications_card_4_button": {
+  "certifications_4_button": {
     "en": "Show curriculum",
     "de": "Kursinhalt anzeigen"
   },
-  "certifications_card_3_heading": {
+  "certifications_3_heading": {
     "en": "Deep Learning",
     "de": "Deep Learning"
   },
-  "certifications_card_3_text": {
+  "certifications_3_text": {
     "en": "September 2020",
     "de": "September 2020"
   },
-  "certifications_card_3_button": {
+  "certifications_3_button": {
     "en": "Show curriculum",
     "de": "Kursinhalt anzeigen"
   },
-  "certifications_card_2_heading": {
+  "certifications_2_heading": {
     "en": "Front End Web Development",
     "de": "Front End Web Entwickler"
   },
-  "certifications_card_2_text": {
+  "certifications_2_text": {
     "en": "December 2016",
     "de": "Dezember 2016"
   },
-  "certifications_card_2_button": {
+  "certifications_2_button": {
     "en": "Show curriculum",
     "de": "Kursinhalt anzeigen"
   },
-  "certifications_card_1_heading": {
+  "certifications_1_heading": {
     "en": "MSc Biology",
     "de": "Biologie Diplom"
   },
-  "certifications_card_1_text": {
+  "certifications_1_text": {
     "en": "January 2000",
     "de": "Januar 2000"
   },
-  "certifications_card_1_button": {
+  "certifications_1_button": {
     "en": "University homepage",
     "de": "Homepage Uni Basel",
     "en_href": "https://www.unibas.ch/en",
