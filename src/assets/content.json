@@ -20,12 +20,12 @@
     "de": "Schweiz"
   },
   "header_homepage": {
-    "en": "Homepage: thomasgrusz.com",
-    "de": "Homepage: thomasgrusz.ch"
+    "en": "thomasgrusz.com",
+    "de": "thomasgrusz.ch"
   },
   "header_email": {
-    "en": "Email: thomas.grusz@protonmail.com",
-    "de": "Email: thomas.grusz@protonmail.com"
+    "en": "thomas.grusz@protonmail.com",
+    "de": "thomas.grusz@protonmail.com"
   },
   "about_heading": {
     "en": "About me",
@@ -464,8 +464,8 @@
     "de": "Alle Zertifikate herunterladen"
   },
   "footer_lastupdate_message": {
-    "en": "Last update: September 2023",
-    "de": "Letzte Aktualisierung: September 2023"
+    "en": "Last update: November 2023",
+    "de": "Letzte Aktualisierung: November 2023"
   },
   "modals-lpic1-title": {
     "en": "Linux Professional Institute Certificate 1",

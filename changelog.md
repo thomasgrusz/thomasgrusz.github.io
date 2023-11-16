@@ -1,6 +1,8 @@
 # Change Log
 
-## Date: 2023 November 12
+Main reason for this rewrite is to include a bundler called `Parcel` and further automate the build process. This helps in particular with customizing and size reduction of the `Bootstrap`css library and adding backwards browser compatibility. Further the downloadable CV is build directly from source, i.e. the `content.json` file.
+
+## Date: 2023 November 12-16
 
 ### Set up development branch
 
@@ -53,4 +55,39 @@ The `img` and `pdf` folders have populated with the necessary artwork.
 
 ### Start rebuilding site
 
-Shorten certain keys in `content.json` where sensible.
+installs
+
+- import bootstrap `.scss` files for sass/css customization from bootstrap-parcel boilerplate file
+- import favicons into `src/assets/favicons`
+- install popperjs for bootstrap animation: `npm i @popperjs/core`
+- install icons for social media & email in footer: `npm i bootstrap-icons`
+
+content
+
+- Shorten certain keys in `content.json` where sensible
+
+html
+
+- create boilerplate `src/index.html` file and link `main.scss` and `main.js`
+- hook up favicons
+- build `index.html` skeleton with PLACEHOLDERTEXT
+- finish sections 'languageSelector', 'header', 'about' and 'footer'
+
+scss
+
+- rename `src/scss/abstracts/_variables` to `src/scss/custom/_my-variables`
+- comment out all custom sass variables and custom theme code
+- add custom styles in `_my-variables`
+
+js
+
+- refactor code for language buttons and html content population into separate es6 modules:
+
+```
+.
+`-- src
+    `-- js
+        `-- hookUpLanguageButtons.js
+        `-- main.js
+        `-- populateHTML.js
+```

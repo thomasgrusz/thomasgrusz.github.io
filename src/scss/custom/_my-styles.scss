@@ -1,0 +1,91 @@
+// Site color definitions
+body {
+  --languageButtonBgColor: #{$teal-600};
+  --languageButtonColor: #{$white};
+
+  --headerBgColor: #{$orange-500};
+  --headerColor: #{$light};
+
+  --footerBgColor: #{$dark};
+  --footerColor: #{$light};
+}
+
+// Language selector button
+.btn-languageSelector {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--languageButtonBgColor);
+  --bs-btn-bg: var(--bs-white);
+  --bs-btn-border-color: var(--languageButtonBgColor);
+  --bs-btn-hover-color: var(--languageButtonBgColor);
+  --bs-btn-hover-bg: var(--bs-tertiary-bg);
+  // --bs-btn-hover-bg: #{tint-color($indigo, 95%)};
+  --bs-btn-hover-border-color: var(--languageButtonBgColor);
+  // --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--languageButtonBgColor);
+  --bs-btn-active-border-color: var(--languageButtonBgColor);
+}
+
+// Header
+.myHeaderColors {
+  background-color: var(--headerBgColor);
+  color: var(--headerColor);
+}
+
+// Section bottom margin
+#about,
+#cv,
+#featuredwork {
+  margin-bottom: $spacer * 2;
+}
+
+// Section headers
+.mainSectionHeader {
+  margin-bottom: $spacer * 0.5;
+  font-weight: 300;
+}
+
+// Footer
+.myFooter {
+  background-color: var(--footerBgColor);
+  color: var(--footerColor);
+}
+
+// Social media icons
+#socialMedia svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+// Email text
+#email a {
+  font-size: 1.25rem;
+}
+
+// Email icon
+#email a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+// **** MEDIA QUERY ****
+@media (min-width: 768px) {
+  #about p {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+
+  #socialMedia svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #email a {
+    font-size: 1.5rem;
+  }
+
+  #email a svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
