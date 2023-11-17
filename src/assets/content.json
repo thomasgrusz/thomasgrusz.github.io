@@ -39,19 +39,19 @@
     "en": "Curriculum Vitae",
     "de": "Lebenslauf"
   },
-  "cv_navtab_1": {
+  "cv_tab_1": {
     "en": "Work experience",
     "de": "Berufserfahrung"
   },
-  "cv_navtab_2": {
+  "cv_tab_2": {
     "en": "Education",
     "de": "Bildung"
   },
-  "cv_navtab_3": {
-    "en": "Computer Science / IT",
+  "cv_tab_3": {
+    "en": "CS / IT",
     "de": "Informatik"
   },
-  "cv_navtab_4": {
+  "cv_tab_4": {
     "en": "Personal data",
     "de": "Persönliche Daten"
   },
@@ -271,6 +271,14 @@
     "en": "JavaScript ES6",
     "de": "JavaScript ES6"
   },
+  "cv_csskills_2_4": {
+    "en": "Bootstrap 5",
+    "de": "Bootstrap 5"
+  },
+  "cv_csskills_2_5": {
+    "en": "Parcel",
+    "de": "Parcel"
+  },
   "cv_csskills_3_heading": {
     "en": "Deep Learning",
     "de": "Deep Learning"
@@ -296,8 +304,8 @@
     "de": "AWS Sagemaker (Basiswissen)"
   },
   "cv_csskills_4_heading": {
-    "en": "Miscellaneous",
-    "de": "Sonstiges"
+    "en": "Developer Tools",
+    "de": "Entwicklertools"
   },
   "cv_csskills_4_1": {
     "en": "Git / Github",
@@ -465,7 +473,7 @@
   },
   "footer_lastupdate_message": {
     "en": "Last update: November 2023",
-    "de": "Letzte Aktualisierung: November 2023"
+    "de": "Letztes Update: November 2023"
   },
   "modals-lpic1-title": {
     "en": "Linux Professional Institute Certificate 1",
