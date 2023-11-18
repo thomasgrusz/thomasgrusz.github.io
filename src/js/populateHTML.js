@@ -11,12 +11,12 @@ const contentElements = document.querySelectorAll("[data-content]");
 // function to populate HTML with content of chosen language
 export default function populateHTML(language) {
   contentElements.forEach((element) => {
-    const translationKey = element.dataset.content;
-    if (content[translationKey][language]) {
-      element.textContent = content[translationKey][language];
+    const contentKey = element.dataset.content;
+    if (content[contentKey][language]) {
+      element.textContent = content[contentKey][language];
     }
-    if (content[translationKey][`${language}_href`]) {
-      element.href = content[translationKey][`${language}_href`];
+    if (content[contentKey][`${language}_href`]) {
+      element.href = content[contentKey][`${language}_href`];
     }
   });
 }

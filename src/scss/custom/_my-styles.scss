@@ -1,3 +1,13 @@
+// Initial site fade in after loading
+body {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+
+  &.fade {
+    opacity: 0;
+  }
+}
+
 // Site color definitions
 body {
   --languageButtonBgColor: #{$teal-600};
@@ -43,6 +53,16 @@ body {
 .mainSectionHeader {
   margin-bottom: $spacer * 0.5;
   font-weight: 300;
+}
+
+// Add pointer to certification image cards
+#certifications .card-img-top {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 // Footer
