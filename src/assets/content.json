@@ -323,95 +323,101 @@
     "en": "Agile development philosophy - SCRUM (familiar)",
     "de": "Agile Entwicklungsphilosophie - SCRUM (geläufig)"
   },
-  "cv-personaldata-1_heading": {
-    "en": "Nationality",
-    "de": "Nationalität"
+  "cv_personaldata_1_heading": {
+    "en": "Nationality:",
+    "de": "Nationalität:"
   },
-  "cv-personaldata-1_1": {
+  "cv_personaldata_1_1": {
     "en": "Swiss / Belgian",
     "de": "Schweiz / Belgien"
   },
-  "cv-personaldata-2_heading": {
+  "cv_personaldata_2_heading": {
     "en": "Languages",
     "de": "Sprachkenntnisse"
   },
-  "cv-personaldata-2_1_1": {
+  "cv_personaldata_2_1_1": {
     "en": "German",
     "de": "Deutsch"
   },
-  "cv-personaldata-2_1_2": {
+  "cv_personaldata_2_1_2": {
     "en": "native",
     "de": "Muttersprache"
   },
-  "cv-personaldata-2_2_1": {
+  "cv_personaldata_2_2_1": {
     "en": "English",
     "de": "Englisch"
   },
-  "cv-personaldata-2_2_2": {
+  "cv_personaldata_2_2_2": {
     "en": "fluent written and spoken",
     "de": "fliessend in Wort und Schrift"
   },
-  "cv-personaldata-2_3_1": {
+  "cv_personaldata_2_3_1": {
     "en": "French",
     "de": "Französisch"
   },
-  "cv-personaldata-2_3_2": {
+  "cv_personaldata_2_3_2": {
     "en": "intermediate written and spoken",
     "de": "mittleres Niveau in Wort und Schrift"
   },
-  "cv-personaldata-2_4_1": {
+  "cv_personaldata_2_4_1": {
     "en": "Spanish",
     "de": "Spanisch"
   },
-  "cv-personaldata-2_4_2": {
+  "cv_personaldata_2_4_2": {
     "en": "elementary spoken",
     "de": "mündliche Basiskenntnisse"
   },
   "cv_download_button": {
     "en": "Download CV",
     "de": "Lebenslauf herunterladen",
-    "en_href": "assets/pdf/CV_Thomas_Grusz_en_2023_website.pdf",
-    "de_href": "assets/pdf/CV_Thomas_Grusz_de_2023_website.pdf"
+    "en_href": "./CV_Thomas_Grusz_en_2023_website.pdf",
+    "de_href": "./CV_Thomas_Grusz_de_2023_website.pdf"
   },
-  "featuredwork_heading": {
-    "en": "Featured Work",
-    "de": "Ausgewählte Projekte"
+  "codingprojects_heading": {
+    "en": "Selected Coding Projects",
+    "de": "Ausgewählte Software Projekte"
   },
-  "featuredwork_1_heading": {
+  "codingprojects_1_heading": {
     "en": "Sudoku Solver",
     "de": "Sudoku Löser"
   },
-  "featuredwork_1_text": {
+  "codingprojects_1_text": {
     "en": "Browser based Sudoku Solver in JavaScript",
     "de": "Browser basierter Sudoku Löser in JavaScript"
   },
-  "featuredwork_1_button": {
+  "codingprojects_1_button": {
     "en": "Go to website",
-    "de": "Zur Webseite"
+    "de": "Zur Webseite",
+    "en_href": "https://thomasgrusz.com/sudoku-solver-js-only",
+    "de_href": "https://thomasgrusz.com/sudoku-solver-js-only"
   },
-  "featuredwork_2_heading": {
+  "codingprojects_2_heading": {
     "en": "Roach Panic",
     "de": "Roach Panic"
   },
-  "featuredwork_2_text": {
+  "codingprojects_2_text": {
     "en": "Browser based arcade game in JavaScript",
     "de": "Browser basiertes Spiel in JavaScript"
   },
-  "featuredwork_2_button": {
+  "codingprojects_2_button": {
     "en": "Go to website",
-    "de": "Zur Webseite"
+    "de": "Zur Webseite",
+    "en_href": "https://thomasgrusz.com/roach-panic-game",
+    "de_href": "https://thomasgrusz.com/roach-panic-game"
   },
-  "featuredwork_3_heading": {
+  "codingprojects_3_heading": {
     "en": "Dog Breed Classifier",
     "de": "Hunderassenklassifikator"
   },
-  "featuredwork_3_text": {
+  "codingprojects_3_text": {
     "en": "Deep neural net in Python / Pytorch",
     "de": "Tiefes neuronales Netzwerk in Python / Pytorch"
   },
-  "featuredwork_3_button": {
+  "codingprojects_3_button": {
     "en": "Go to GitHub repo",
-    "de": "Zum GitHub repo"
+    "de": "Zum GitHub Repo",
+    "en_href": "https://github.com/thomasgrusz/dog-breed-classifier",
+    "de_href": "https://github.com/thomasgrusz/dog-breed-classifier"
   },
   "certifications_heading": {
     "en": "Certifications",
@@ -427,7 +433,9 @@
   },
   "certifications_4_button": {
     "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
+    "de": "Kursinhalt anzeigen",
+    "en_href": "https://www.lpi.org/our-certifications/lpic-1-overview",
+    "de_href": "https://www.lpi.org/our-certifications/lpic-1-overview"
   },
   "certifications_3_heading": {
     "en": "Deep Learning",
@@ -439,7 +447,9 @@
   },
   "certifications_3_button": {
     "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
+    "de": "Kursinhalt anzeigen",
+    "en_href": "https://www.udacity.com/course/deep-learning-nanodegree--nd101",
+    "de_href": "https://www.udacity.com/course/deep-learning-nanodegree--nd101"
   },
   "certifications_2_heading": {
     "en": "Front End Web Development",
@@ -451,7 +461,9 @@
   },
   "certifications_2_button": {
     "en": "Show curriculum",
-    "de": "Kursinhalt anzeigen"
+    "de": "Kursinhalt anzeigen",
+    "en_href": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011",
+    "de_href": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
   },
   "certifications_1_heading": {
     "en": "MSc Biology",
@@ -469,7 +481,9 @@
   },
   "certifications_download_button": {
     "en": "Download all certificates",
-    "de": "Alle Zertifikate herunterladen"
+    "de": "Alle Zertifikate herunterladen",
+    "en_href": "./Certifications_Thomas_Grusz.pdf",
+    "de_href": "./Certifications_Thomas_Grusz.pdf"
   },
   "footer_lastupdate_message": {
     "en": "Last update: November 2023",

@@ -55,31 +55,31 @@ The `img` and `pdf` folders have populated with the necessary artwork.
 
 ### Start rebuilding site
 
-installs
+#### installs
 
 - import bootstrap `.scss` files for sass/css customization from bootstrap-parcel boilerplate file
 - import favicons into `src/assets/favicons`
 - install popperjs for bootstrap animation: `npm i @popperjs/core`
 - install icons for social media & email in footer: `npm i bootstrap-icons`
 
-content
+#### content
 
 - Shorten certain keys in `content.json` where sensible
 
-html
+#### html
 
 - create boilerplate `src/index.html` file and link `main.scss` and `main.js`
 - hook up favicons
 - build `index.html` skeleton with PLACEHOLDERTEXT
 - finish sections 'languageSelector', 'header', 'about' and 'footer'
 
-scss
+#### scss
 
 - rename `src/scss/abstracts/_variables` to `src/scss/custom/_my-variables`
 - comment out all custom sass variables and custom theme code
 - add custom styles in `_my-variables`
 
-js
+#### js
 
 - refactor code for language buttons and html content population into separate es6 modules:
 
@@ -90,4 +90,36 @@ js
         `-- hookUpLanguageButtons.js
         `-- main.js
         `-- populateHTML.js
+```
+
+#### Static assets
+
+Links to locally hosted assets, like PDFs, are injected via JavaScript **after** the `parcel` build process and that is why `parcel` fails to copy those assets into the final build folder. These assets have to be copied separately using the `parcel-reporter-static-files-cop` plugin. This plugin copies the contents of the `static` folder at the root of the project to the final build folder.
+
+So the PDFs are placed in `homepage-thg/static/`, and a `.parcelrc` file with the following contents needs to be in place at the root:
+
+```
+{
+  "extends": ["@parcel/config-default"],
+  "reporters":  ["...", "parcel-reporter-static-files-copy"]
+}
+```
+
+To install the plugin as a dev dependency run: `npm i -D parcel-reporter-static-files-copy`
+
+Also make sure that the link to the PDFs inside the `content.json` file points to the root of the build folder, i.e.:
+
+```
+  .
+  .
+  .
+ "cv_download_button": {
+    "en": "Download CV",
+    "de": "Lebenslauf herunterladen",
+    "en_href": "./CV_Thomas_Grusz_en_2023_website.pdf",
+    "de_href": "./CV_Thomas_Grusz_de_2023_website.pdf"
+  },
+  .
+  .
+  .
 ```
