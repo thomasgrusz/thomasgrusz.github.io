@@ -749,6 +749,8 @@
                 src="./assets/img/LPIC-1._Certification_Document.jpg"
                 alt="Linux Professional Institute Certification 1"
                 class="card-img-top"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-lpic1"
               />
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
@@ -777,6 +779,8 @@
                 src="./assets/img/Deep_Learning_Certificate-Udacity.jpg"
                 alt="Deep Learning Certificate by Udacity"
                 class="card-img-top"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-deeplearning"
               />
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
@@ -805,6 +809,8 @@
                 src="./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg"
                 alt="Front End Web Developer Certificate by Udacity"
                 class="card-img-top"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-fend"
               />
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
@@ -833,6 +839,8 @@
                 src="./assets/img/Master_Biology_Thomas_Grusz_short.jpg"
                 alt="Master of Biology Certificate by University of Basel"
                 class="card-img-top"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-mscbiology"
               />
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
@@ -958,5 +966,152 @@
         </div>
       </div>
     </footer>
+    <!-- MODALS -->
+    <section>
+      <div
+        class="modal fade"
+        id="modal-lpic1"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-lg-down"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <div
+                data-content="modals-lpic1-title"
+                class="modal-title fs-5"
+                id="modal-title"
+              >
+                Linux Professional Institute Certificate 1
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="assets/img/LPIC-1._Certification_Document.jpg"
+                alt="Linux Professional Institute Certification 1"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="modal-deeplearning"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-lg-down"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <div
+                data-content="modals-deeplearning-title"
+                class="modal-title fs-5"
+                id="modal-title"
+              >
+                Deep Learning Certificate
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="assets/img/Deep_Learning_Certificate-Udacity.jpg"
+                alt="Deep Learning Certificate by Udacity"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="modal-fend"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-lg-down"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <div
+                data-content="modals-fend-title"
+                class="modal-title fs-5"
+                id="modal-title"
+              >
+                Front End Web Developer Certificate
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg"
+                alt="Front End Web Developer Certificate by Udacity"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="modal-mscbiology"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-lg-down"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <div
+                data-content="modals-mscbiology-title"
+                class="modal-title fs-5"
+                id="modal-title"
+              >
+                MSc Biology
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <img
+                src="assets/img/Master_Biology_Thomas_Grusz.jpg"
+                alt="Master of Biology Certificate by University of Basel"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
