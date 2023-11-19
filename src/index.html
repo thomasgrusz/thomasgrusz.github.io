@@ -58,19 +58,44 @@
     <!-- HEADER -->
     <header id="header" class="container-fluid myHeaderColors">
       <div class="container-lg">
-        <div class="row text-center align-items-center">
+        <div class="row text-center justify-content-center align-items-center">
           <div
             data-content="header_thomasgrusz"
             class="col-sm-8 pt-3 pt-sm-0 display-4 fw-lighter"
           >
             PLACEHOLDERTEXT
           </div>
-          <div class="col-sm-4 p-4">
-            <img
-              class="img-fluid rounded-circle"
-              src="./assets/img/thg_140x140.jpg"
-              alt="Portrait of Thomas Grusz"
-            />
+          <!-- Header image -->
+          <div class="col-5 col-sm-4 p-4 p-sm-5">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?as=avif&width=400 2x,
+                  ./assets/img/thg_656x656.jpg?as=avif&width=200
+                "
+              />
+              <source
+                type="image/webp"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?as=webp&width=400 2x,
+                  ./assets/img/thg_656x656.jpg?as=webp&width=200
+                "
+              />
+              <source
+                type="image/jpeg"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?width=400 2x,
+                  ./assets/img/thg_656x656.jpg?width=200
+                "
+              />
+              <img
+                class="img-fluid rounded-circle"
+                src="./assets/img/thg_656x656.jpg?width=200"
+                width="200"
+                alt="Portrait of Thomas Grusz"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -745,13 +770,37 @@
             class="col-10 col-sm-6 col-md-5 col-lg-3 d-flex align-items-stretch"
           >
             <div class="card">
-              <img
-                src="./assets/img/LPIC-1._Certification_Document.jpg"
-                alt="Linux Professional Institute Certification 1"
-                class="card-img-top"
-                data-bs-toggle="modal"
-                data-bs-target="#modal-lpic1"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=avif&width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=webp&width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/LPIC-1_Certification_Document.jpg?width=766"
+                  alt="Linux Professional Institute Certification 1"
+                  class="card-img-top"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-lpic1"
+                  width="766"
+                />
+              </picture>
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
               >
@@ -775,13 +824,37 @@
             class="col-10 col-sm-6 col-md-5 col-lg-3 d-flex align-items-stretch"
           >
             <div class="card">
-              <img
-                src="./assets/img/Deep_Learning_Certificate-Udacity.jpg"
-                alt="Deep Learning Certificate by Udacity"
-                class="card-img-top"
-                data-bs-toggle="modal"
-                data-bs-target="#modal-deeplearning"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=avif&width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=webp&width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=766"
+                  alt="Deep Learning Certificate by Udacity"
+                  class="card-img-top"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-deeplearning"
+                  width="766"
+                />
+              </picture>
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
               >
@@ -805,13 +878,37 @@
             class="col-10 col-sm-6 col-md-5 col-lg-3 d-flex align-items-stretch"
           >
             <div class="card">
-              <img
-                src="./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg"
-                alt="Front End Web Developer Certificate by Udacity"
-                class="card-img-top"
-                data-bs-toggle="modal"
-                data-bs-target="#modal-fend"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=avif&width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=webp&width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=766"
+                  alt="Front End Web Developer Certificate by Udacity"
+                  class="card-img-top"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-fend"
+                  width="766"
+                />
+              </picture>
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
               >
@@ -835,13 +932,37 @@
             class="col-10 col-sm-6 col-md-5 col-lg-3 d-flex align-items-stretch"
           >
             <div class="card">
-              <img
-                src="./assets/img/Master_Biology_Thomas_Grusz_short.jpg"
-                alt="Master of Biology Certificate by University of Basel"
-                class="card-img-top"
-                data-bs-toggle="modal"
-                data-bs-target="#modal-mscbiology"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?as=avif&width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?as=webp&width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz_short.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Master_Biology_Thomas_Grusz_short.jpg?width=766"
+                  alt="Master of Biology Certificate by University of Basel"
+                  class="card-img-top"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-mscbiology"
+                  width="766"
+                />
+              </picture>
               <div
                 class="card-body d-flex flex-column align-items-start justify-content-between"
               >
@@ -968,6 +1089,7 @@
     </footer>
     <!-- MODALS -->
     <section>
+      <!-- Modal 1 -->
       <div
         class="modal fade"
         id="modal-lpic1"
@@ -985,7 +1107,7 @@
                 class="modal-title fs-5"
                 id="modal-title"
               >
-                Linux Professional Institute Certificate 1
+                PLACEHOLDERTEXT
               </div>
               <button
                 type="button"
@@ -995,11 +1117,35 @@
               ></button>
             </div>
             <div class="modal-body">
-              <img
-                src="assets/img/LPIC-1._Certification_Document.jpg"
-                alt="Linux Professional Institute Certification 1"
-                class="img-fluid"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=avif&width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=webp&width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/LPIC-1_Certification_Document.jpg?width=990 2x,
+                    ./assets/img/LPIC-1_Certification_Document.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/LPIC-1_Certification_Document.jpg?width=766"
+                  alt="Linux Professional Institute Certification 1"
+                  class="img-fluid"
+                  width="766"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -1021,7 +1167,7 @@
                 class="modal-title fs-5"
                 id="modal-title"
               >
-                Deep Learning Certificate
+                PLACEHOLDERTEXT
               </div>
               <button
                 type="button"
@@ -1031,11 +1177,35 @@
               ></button>
             </div>
             <div class="modal-body">
-              <img
-                src="assets/img/Deep_Learning_Certificate-Udacity.jpg"
-                alt="Deep Learning Certificate by Udacity"
-                class="img-fluid"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=avif&width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=webp&width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=792 2x,
+                    ./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Deep_Learning_Certificate-Udacity.jpg?width=766"
+                  alt="Deep Learning Certificate by Udacity"
+                  class="img-fluid"
+                  width="766"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -1057,7 +1227,7 @@
                 class="modal-title fs-5"
                 id="modal-title"
               >
-                Front End Web Developer Certificate
+                PLACEHOLDERTEXT
               </div>
               <button
                 type="button"
@@ -1067,11 +1237,35 @@
               ></button>
             </div>
             <div class="modal-body">
-              <img
-                src="assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg"
-                alt="Front End Web Developer Certificate by Udacity"
-                class="img-fluid"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=avif&width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=webp&width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=792 2x,
+                    ./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Frontend_Web_Developer_Certificate-Udacity.jpg?width=766"
+                  alt="Front End Web Developer Certificate by Udacity"
+                  class="img-fluid"
+                  width="766"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -1093,7 +1287,7 @@
                 class="modal-title fs-5"
                 id="modal-title"
               >
-                MSc Biology
+                PLACEHOLDERTEXT
               </div>
               <button
                 type="button"
@@ -1103,11 +1297,35 @@
               ></button>
             </div>
             <div class="modal-body text-center">
-              <img
-                src="assets/img/Master_Biology_Thomas_Grusz.jpg"
-                alt="Master of Biology Certificate by University of Basel"
-                class="img-fluid"
-              />
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?as=avif&width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?as=avif&width=766
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?as=webp&width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?as=webp&width=766
+                  "
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?width=595 2x,
+                    ./assets/img/Master_Biology_Thomas_Grusz.jpg?width=766
+                  "
+                />
+                <img
+                  src="./assets/img/Master_Biology_Thomas_Grusz.jpg?width=766"
+                  alt="Master of Biology Certificate by University of Basel"
+                  class="img-fluid"
+                  width="766"
+                />
+              </picture>
             </div>
           </div>
         </div>

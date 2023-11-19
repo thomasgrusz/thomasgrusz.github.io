@@ -16,7 +16,8 @@
     "@parcel/transformer-sass": "^2.10.2",
     "@parcel/transformer-webmanifest": "^2.10.2",
     "parcel": "^2.10.2",
-    "parcel-reporter-static-files-copy": "^1.5.3"
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "sharp": "^0.31.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
