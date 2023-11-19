@@ -2,7 +2,7 @@
 
 Main reason for this rewrite is to include a bundler called `Parcel` and further automate the build process. This helps in particular with customizing and size reduction of the `Bootstrap`css library and adding backwards browser compatibility. Further the downloadable CV is build directly from source, i.e. the `content.json` file.
 
-## Date: 2023 November 12-16
+## Date: 2023 November 12-19
 
 ### Set up development branch
 
@@ -123,3 +123,43 @@ Also make sure that the link to the PDFs inside the `content.json` file points t
   .
   .
 ```
+
+#### Images
+
+`<picture>` elements are used to allow the browser to chose the appropriate image format.
+
+```
+
+            <picture>
+              <source
+                type="image/avif"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?as=avif&width=400 2x,
+                  ./assets/img/thg_656x656.jpg?as=avif&width=200
+                "
+              />
+              <source
+                type="image/webp"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?as=webp&width=400 2x,
+                  ./assets/img/thg_656x656.jpg?as=webp&width=200
+                "
+              />
+              <source
+                type="image/jpeg"
+                srcset="
+                  ./assets/img/thg_656x656.jpg?width=400 2x,
+                  ./assets/img/thg_656x656.jpg?width=200
+                "
+              />
+              <img
+                class="img-fluid rounded-circle"
+                src="./assets/img/thg_656x656.jpg?width=200"
+                width="200"
+                alt="Portrait of Thomas Grusz"
+              />
+            </picture>
+
+```
+
+The `<source>` elements offer the browser the following image formats in this order: `avif`, `webp`, `jpg` and in case the browser does not understand the `<picture>` element, there is an `<img>` element as fallback. The order is important, as `avif` is the most performant, but least distributed format, then `webp`, then `jpg`. Inside the `<source>` element, there is another ordered set of images to address device resolution within the `srcset` attribute. For instance many Apple devices have a 2x screen resolution.
