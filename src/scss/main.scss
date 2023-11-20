@@ -29,13 +29,8 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
 
-// 4. Create your OWN map overrides, this could also be a partial file (_color_map.scss)
-// $custom-colors: (
-//   "indigo": $indigo,
-// );
-
-// // Merge the maps
-// $theme-colors: map-merge($theme-colors, $custom-colors);
+// 4. Create your OWN map overrides
+@import "./custom/my-color-map";
 
 // 5. Include remainder of required parts
 @import "bootstrap/scss/maps";

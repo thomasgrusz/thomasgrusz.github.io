@@ -1,8 +1,18 @@
-// This file contains our overwrites for sass variables
-// e.g. $primary: red;
+// Colors
+$charcoal: #233d4d;
+$pumpkin: #fe7f2d;
+$sunglow: #fcca46;
+$olivine: #a1c181;
+$zomp: #619b8a;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
 
-// Here we define an 'orange' variable
-// $orange: #fd7e14;
+$link-color: $charcoal;
+$link-hover-color: $pumpkin;
 
-// And then define it as the primary color
-// $primary: $orange;
+// Themes
+$info: $pumpkin; // Language selector button
+$success: $charcoal; // Header
+$primary: $charcoal; // Accordion
+$danger: $charcoal; // Download buttons
+$warning: $olivine;

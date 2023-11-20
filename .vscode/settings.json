@@ -20,7 +20,8 @@
     "popperjs",
     "Promotionsmaterial",
     "workexperience",
-    "workexperiences"
+    "workexperiences",
+    "zomp"
   ],
   "liveServer.settings.root": "build/"
 }
