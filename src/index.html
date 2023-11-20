@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-thg-main">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,7 +29,7 @@
     <script type="module" src="./js/main.js"></script>
     <title>Thomas Grusz</title>
   </head>
-  <body class="fade">
+  <body class="fade bg-thg-tertiary">
     <!-- LANGUAGE SELECTOR -->
     <section id="languageselector" class="container-lg text-center py-4">
       <div
@@ -40,7 +40,7 @@
         <button
           data-content="languageselector_english"
           type="button"
-          class="btn btn-outline-info active"
+          class="btn btn-thg-accent active"
         >
           PLACEHOLDERTEXT
         </button>
@@ -48,7 +48,7 @@
         <button
           data-content="languageselector_german"
           type="button"
-          class="btn btn-outline-info btn-languageSelector"
+          class="btn btn-thg-accent"
         >
           PLACEHOLDERTEXT
         </button>
@@ -56,7 +56,7 @@
     </section>
 
     <!-- HEADER -->
-    <header id="header" class="container-fluid bg-success text-light shadow">
+    <header id="header" class="container-fluid bg-thg-main text-light shadow">
       <div class="container-lg">
         <div class="row text-center justify-content-center align-items-center">
           <div
@@ -102,7 +102,7 @@
     </header>
 
     <!-- MAIN -->
-    <main class="container-lg p-5 bg-body-tertiary">
+    <main class="container-lg p-5 bg-thg-secondary">
       <!-- ABOUT ME -->
       <section id="about">
         <h2 class="mainSectionHeader" data-content="about_heading">
@@ -186,7 +186,7 @@
         </ul>
 
         <!-- Panes -->
-        <div class="tab-content" id="cvTabContent">
+        <div class="tab-content mb-5 bg-body" id="cvTabContent">
           <!-- Work Experience -->
           <div
             class="tab-pane fade show active"
@@ -195,7 +195,8 @@
             aria-labelledby="workexperience-tab"
             tabindex="0"
           >
-            <div class="accordion accordion-cv" id="cvAccordion">
+            <!-- Accordion Start -->
+            <div id="cvAccordion" class="accordion" id="cvAccordion">
               <!-- Accordion Item 6 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -539,7 +540,7 @@
 
           <!-- Computer Science / IT -->
           <div
-            class="tab-pane fade ps-3 pt-4 pb-2"
+            class="tab-pane fade ps-3 py-4"
             id="csskills-tab-pane"
             role="tabpanel"
             aria-labelledby="csskills-tab"
@@ -678,10 +679,11 @@
           </div>
         </div>
 
+        <!-- CV download button -->
         <div class="row justify-content-center mt-3">
           <a
             data-content="cv_download_button"
-            class="col-auto btn btn-lg btn-outline-danger"
+            class="col-auto btn btn-lg btn-outline-thg-accent"
             href=""
             target="_blank"
             >PLACEHOLDERTEXT</a
@@ -987,7 +989,7 @@
         <div class="row justify-content-center m-5">
           <a
             data-content="certifications_download_button"
-            class="col-auto btn btn-lg btn-outline-danger"
+            class="col-auto btn btn-lg btn-outline-thg-accent"
             href=""
             target="_blank"
             >PLACEHOLDERTEXT</a
@@ -996,7 +998,7 @@
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="container-fluid bg-success text-light">
+    <footer id="footer" class="container-fluid bg-thg-main text-light">
       <div class="pt-4">
         <div
           id="socialMedia"

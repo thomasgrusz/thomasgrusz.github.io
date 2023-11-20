@@ -1,17 +1,41 @@
-// Initial site fade in after loading
+// Fade in animation for initial page load
 body {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+  opacity: 1.4;
+  transition: opacity 1s ease;
 
   &.fade {
     opacity: 0;
   }
 }
 
-// CV Accordion Override
-.accordion-cv {
-  --bs-accordion-active-bg: #{$charcoal};
-  --bs-accordion-active-color: #{$light};
+// Language Selector Button Override
+#languageselector button {
+  --bs-btn-font-weight: 600;
+  // active
+  --bs-btn-active-color: #{$light};
+  //   --bs-btn-active-bg: #{$thg_site_accent_color};
+  //   --bs-btn-active-border-color: #{$thg_site_accent_color};
+  // inactive
+  --bs-btn-color: #{$light};
+  //   --bs-btn-bg: #{$gray-100};
+  //   --bs-btn-border-color: #{$thg_site_accent_color};
+  // hover
+  --bs-btn-hover-color: #{$gray-500};
+  //   --bs-btn-hover-bg: #{$thg_site_accent_color};
+  //   --bs-btn-hover-border-color: #{$thg_site_accent_color};
+  //   // --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+}
+
+// Download buttons override
+#cv .btn-outline-thg-accent,
+#certifications .btn-outline-thg-accent {
+  --bs-btn-hover-color: #{$light};
+}
+
+#header,
+#footer {
+  background-image: url("../assets/img/blackboard_warm_4681x931.jpg");
+  background-size: cover;
 }
 
 // Section bottom margin
@@ -37,6 +61,7 @@ body {
   }
 }
 
+// FOOTER
 // Social media icons
 #socialMedia svg {
   width: 2rem;

@@ -1,6 +1,9 @@
-// $custom-colors: (
-//   "pumpkin": $pumpkin,
-// );
+$custom-colors: (
+  "thg-main": $thg-main,
+  "thg-accent": $thg-accent,
+  "thg-secondary": $thg-secondary,
+  "thg-tertiary": $thg-tertiary,
+);
 
-// // Merge the maps
-// $theme-colors: map-merge($theme-colors, $custom-colors);
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
