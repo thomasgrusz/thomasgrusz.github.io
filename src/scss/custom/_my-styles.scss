@@ -32,10 +32,30 @@ body {
   --bs-btn-hover-color: #{$light};
 }
 
+// Old way of getting a background picture.
+// #header,
+// #footer {
+//   background-image: url("../assets/img/blackboard.jpg");
+//   background-size: cover;
+// }
+
+// Background image
 #header,
 #footer {
-  background-image: url("../assets/img/blackboard_warm_4681x931.jpg");
-  background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  overflow: hidden;
+
+  // `Background' image of blackboard
+  & > picture {
+    position: absolute;
+    z-index: 9;
+  }
+
+  & .header-footer-content {
+    z-index: 10;
+  }
 }
 
 // Section bottom margin
