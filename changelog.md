@@ -2,7 +2,7 @@
 
 The main reason for this rewrite is to include a bundler called `Parcel` and further automate the build process. This helps in particular with customizing and size reduction of the `Bootstrap`css library and adding backwards browser compatibility. Further the downloadable CV is build directly from source, i.e. the `content.json` file.
 
-## Date: 2023 November 21
+## Date: 2023 November 12
 
 ### Set up development branch
 
@@ -184,3 +184,28 @@ Also make sure that the link to the PDFs inside the `content.json` file points t
 ```
 
 The `<source>` elements offer the browser the following image formats in this order: `avif`, `webp`, `jpg` and in case the browser does not understand the `<picture>` element, there is an `<img>` element as fallback. The order is important, as `avif` is the most performant, but least distributed format, then `webp`, then `jpg`. Inside the `<source>` element, there is another ordered set of images to address device resolution within the `srcset` attribute. For instance many Apple devices have a 2x screen resolution.
+
+## Date: 2023 November 21
+
+### Merge `development` branch into master branch:
+
+```
+git switch master
+git merge --allow-unrelated-histories development
+==> resolve merge conflicts
+git add .
+git commit
+```
+
+As the development branch was started as an orphan branch, the `--allow-unrelated-histories` flag has to be used for merging.
+
+### Publish on GitHub
+
+In order to publish a folder on GitHub, the most simple solution is to create a new `production` branch, push it to GitHub and tell GitHub to deploy from that `production` branch.
+
+```
+git subtree split --prefix=build -b production
+git switch build
+git push --set-upstream origin production
+
+```

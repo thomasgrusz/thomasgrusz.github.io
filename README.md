@@ -43,4 +43,14 @@ After updating the CV, run the build command:
 npm run build
 ```
 
-This will newly create a `build` folder containing the minimized, bundled project files ready for production deployment.
+This will create a new `build` folder containing the minimized, bundled project files ready for production deployment.
+
+## Publishing GitHub
+
+The easiest way to publish the site on GitHub is to create a separate `production` branch from the `build` folder, push that branch to GitHub and tell GitHub to deploy from that branch.
+
+```
+git subtree split --prefix=build -b production
+git switch production
+git push --set-upstream origin production
+```
