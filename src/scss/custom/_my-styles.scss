@@ -1,0 +1,134 @@
+// Fade in animation for initial page load
+body {
+  opacity: 1.4;
+  transition: opacity 1s ease;
+
+  &.fade {
+    opacity: 0;
+  }
+}
+
+// Language Selector Button Override
+#languageselector button {
+  --bs-btn-font-weight: 600;
+  // active
+  --bs-btn-active-color: #{$light};
+  //   --bs-btn-active-bg: #{$thg_site_accent_color};
+  //   --bs-btn-active-border-color: #{$thg_site_accent_color};
+  // inactive
+  --bs-btn-color: #{$light};
+  //   --bs-btn-bg: #{$gray-100};
+  //   --bs-btn-border-color: #{$thg_site_accent_color};
+  // hover
+  --bs-btn-hover-color: #{$gray-500};
+  //   --bs-btn-hover-bg: #{$thg_site_accent_color};
+  //   --bs-btn-hover-border-color: #{$thg_site_accent_color};
+  //   // --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+}
+
+// Download buttons override
+#cv .btn-outline-thg-accent,
+#certifications .btn-outline-thg-accent {
+  --bs-btn-hover-color: #{$light};
+}
+
+// Old way of getting a background picture.
+// #header,
+// #footer {
+//   background-image: url("../assets/img/blackboard.jpg");
+//   background-size: cover;
+// }
+
+// Background image
+#header,
+#footer {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  overflow: hidden;
+
+  // `Background' image of blackboard
+  & > picture {
+    position: absolute;
+    z-index: 9;
+  }
+
+  & .header-footer-content {
+    z-index: 10;
+  }
+}
+
+// Section bottom margin
+#about,
+#cv,
+#codingprojects {
+  margin-bottom: $spacer * 5;
+}
+
+// Section headers
+.mainSectionHeader {
+  margin-bottom: $spacer * 1;
+  font-weight: 300;
+}
+
+// Add pointer to certification image cards
+#certifications .card-img-top {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// FOOTER
+// Social media icons
+#socialMedia svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+// Email text
+#email a {
+  font-size: 1.25rem;
+}
+
+// Email icon
+#email a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+// **** MEDIA QUERY ****
+@media (min-width: 576px) {
+  #about p {
+    line-height: 2rem;
+  }
+  #cvTab {
+    font-size: 1.25rem;
+  }
+  #email {
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 768px) {
+  #about p {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+
+  #socialMedia svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #email a {
+    font-size: 1.5rem;
+  }
+
+  #email a svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

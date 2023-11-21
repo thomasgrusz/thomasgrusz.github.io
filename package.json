@@ -1,21 +1,26 @@
 {
   "name": "homepage-thg",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "version": "0.1.0",
+  "description": "Rewrite of thg homepage using parcel and bootstrap",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "parcel src/index.html --dist-dir dev",
+    "build": "rm -rf build && parcel build src/index.html --no-source-maps --public-url / --dist-dir build"
   },
   "keywords": [],
   "author": "Thomas Grusz",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
-    "del": "^7.1.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-json-minify": "^1.2.3",
-    "gulp-terser": "^2.1.0"
+    "@parcel/packager-raw-url": "^2.10.2",
+    "@parcel/transformer-sass": "^2.10.2",
+    "@parcel/transformer-webmanifest": "^2.10.2",
+    "parcel": "^2.10.2",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1"
   }
 }

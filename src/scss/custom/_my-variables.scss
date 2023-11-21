@@ -1,0 +1,34 @@
+// All bootstrap colors are available here
+// e.g. $primary, $blue, $blue-100, $gray-900, etc.
+
+// New colors
+$charcoal: hsl(210, 11%, 20%);
+$lightsand: hsl(35, 25%, 97%);
+$lightgray: rgb(248, 249, 250);
+$pumpkin: #fe7f2d;
+$sunglow: #fcca46;
+$olivine: #a1c181;
+$bronze: #6e6245;
+$gold: #9c7f50;
+$zomp: #619b8a;
+$blue: $blue-600;
+$white: #fff;
+
+// *****************************************************
+// Theme colors - Change THESE to change site colors
+$thg-main: $charcoal;
+$thg-accent: $bronze;
+$thg-secondary: $lightgray;
+$thg-tertiary: $white;
+
+// *****************************************************
+
+// $light and $dark override
+$light: $gray-100;
+$dark: $gray-900;
+
+// $primary override (accordion default is $primary)
+$primary: $thg-accent;
+
+// Link color override => CV tabs (link default is $primary)
+$link-color: $thg-accent;
