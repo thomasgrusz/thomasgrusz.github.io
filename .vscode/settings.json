@@ -2,6 +2,7 @@
   "cSpell.language": "en,lorem,de-CH,de",
   "cSpell.diagnosticLevel": "Information",
   "cSpell.words": [
+    "CAREFULL",
     "codingprojects",
     "csskills",
     "deeplearning",
@@ -16,6 +17,7 @@
     "lpic",
     "mscbiology",
     "navtab",
+    "networkidle",
     "Oooops",
     "PLACEHOLDERTEXT",
     "popperjs",
@@ -25,4 +27,5 @@
     "zomp"
   ],
   "liveServer.settings.root": "build/"
+  // "liveServer.settings.root": "cv-maker/"
 }

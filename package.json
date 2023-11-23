@@ -4,8 +4,9 @@
   "description": "Rewrite of thg homepage using parcel and bootstrap",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "devStart": "parcel src/index.html --dist-dir dev",
-    "build": "rm -rf build && parcel build src/index.html --no-source-maps --public-url / --dist-dir build"
+    "devStart": "npm run makeCv && parcel src/index.html --dist-dir dev",
+    "build": "rm -rf build && npm run makeCv && parcel build src/index.html --no-source-maps --public-url / --dist-dir build",
+    "makeCv": "node ./cv-maker/main.js"
   },
   "keywords": [],
   "author": "Thomas Grusz",
@@ -16,11 +17,13 @@
     "@parcel/transformer-webmanifest": "^2.10.2",
     "parcel": "^2.10.2",
     "parcel-reporter-static-files-copy": "^1.5.3",
+    "puppeteer": "^21.5.2",
     "sharp": "^0.31.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1"
-  }
+  },
+  "type": "module"
 }

@@ -1,0 +1,170 @@
+:root {
+  --charcoal: hsl(210, 11%, 20%);
+  font-size: 14px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: hsl(33, 100%, 98%);
+}
+body {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 794px;
+}
+#container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* TITLE */
+#title {
+  text-align: center;
+  /* padding-top: 1.5rem; */
+  padding-bottom: 0.75rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  align-items: center;
+  align-items: end;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+#header-text {
+  flex: 3;
+}
+#header-text > div:first-child {
+  font-size: large;
+  font-weight: bold;
+}
+#header-address {
+  margin-top: 1rem;
+}
+#header-contacts {
+  display: flex;
+  margin-top: 1rem;
+}
+#header-contacts > div:first-child {
+  margin-right: 2.5rem;
+}
+#header-image {
+  flex: 1;
+}
+
+/* SECTIONS */
+section {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.section-header {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* WORK EXPERIENCE */
+.workexperience-subheader {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+.workexperience-subheader > div:first-child {
+  flex: 1;
+}
+.workexperience-subheader > div:first-child > div:first-child {
+  font-weight: bold;
+}
+.workexperience-subheader > div:nth-child(2) {
+  flex: 3;
+}
+.workexperience-subheader > div:nth-child(2) > div:nth-child(1) {
+  font-style: italic;
+}
+.workexperience-subheader li {
+  margin-left: 1rem;
+}
+
+/* EDUCATION */
+.education-subheader {
+  display: flex;
+}
+.education-subheader > div:first-child {
+  flex: 1;
+  font-weight: bold;
+}
+.education-subheader > div:nth-child(2) {
+  flex: 3;
+}
+
+/* CSS SKILLS */
+#csskills li {
+  margin-left: 1rem;
+}
+#csskills > div:nth-child(2),
+#csskills > div:nth-child(3) {
+  display: flex;
+  column-gap: 7rem;
+  margin-bottom: 0.75rem;
+}
+#csskills > div:nth-child(2) > div,
+#csskills > div:nth-child(3) > div {
+  flex: 1;
+}
+.csskills-subheader > div:first-child {
+  font-weight: bold;
+}
+
+/* PERSONAL DATA */
+.personaldata-subheader-1,
+.personaldata-subheader-2 {
+  display: flex;
+}
+.personaldata-subheader-1 > div:first-child {
+  flex: 1;
+  font-weight: bold;
+}
+.personaldata-subheader-1 > div:nth-child(2) {
+  flex: 3;
+  margin-bottom: 0.75rem;
+}
+.personaldata-subheader-2 > div:first-child {
+  flex: 1;
+  font-weight: bold;
+}
+.personaldata-subheader-2 > div:nth-child(2) {
+  flex: 3;
+}
+#languages > div {
+  display: flex;
+}
+#languages > div > div:first-child {
+  flex: 1;
+}
+#languages > div > div:nth-child(2) {
+  flex: 3;
+}
+
+@media print {
+  #title {
+    color: black;
+    background-color: white;
+  }
+}
+
+.workexperience-subheader,
+#personaldata {
+  page-break-inside: avoid;
+}
