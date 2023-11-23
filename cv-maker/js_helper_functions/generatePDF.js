@@ -35,7 +35,7 @@ export async function generatePDF(cvFileName, language) {
 
   await browser.close();
 
-  console.log(`PDF CV for ${language} language generated: ${outputPath}`);
+  console.log(`PDF-CV for ${language} language generated: ${outputPath}`);
 }
 
 // Alternatives to get content
