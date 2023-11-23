@@ -209,3 +209,42 @@ git switch build
 git push --set-upstream origin production
 
 ```
+
+## Date: 2023 November 23
+
+### Add cv-maker
+
+The cv-maker is a JavaScript program that ensures consistency of the CV section of the webpage and the downloadable CVs in PDF format. The program can be run separately via
+
+```
+npm run makeCv
+```
+
+This will read the content information relating to the CV from `src/assets/content.json` and produce two PDF files in the `static` folder:
+
+```
+static
+|-- CV_Thomas_Grusz_de_2023.pdf
+`-- CV_Thomas_Grusz_en_2023.pdf
+```
+
+`makeCv` is also part of the the two `npm` scripts `devStart` and `build`, i.e. the two PDFs during development and after build will always be up to date with the latest content.
+
+```
+cv-maker
+|-- CV_Thomas_Grusz_de_2023.html
+|-- CV_Thomas_Grusz_en_2023.html
+|-- cv_template.html
+|-- js_helper_functions
+|   |-- generatePDF.js
+|   `-- injectContent.js
+|-- main.js
+|-- styles.css
+`-- thg_150x150.jpg
+```
+
+`cv-maker` is a folder in project root with an entry point of `main.js`.
+
+`main.js` reads the relevant content from `src/assets/content.json`, injects it into the `cv_template.html` and stores the English and German versions of the CV as intermediate `html` files. Then, these `html` files will be transformed into PDFs using the `puppeteer` package.
+
+The CVs are styled based on the local `styles.css` file and a smaller (150x150) version of the portrait photo.

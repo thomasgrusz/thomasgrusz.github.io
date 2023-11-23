@@ -9,10 +9,18 @@
 - JavaScript ES6
 - Bootstrap v5.3 (frontend framework)
 - Parcel v2.10 (bundler)
+- Puppeteer 21.5
 
 ## Project structure
 
-All source files are stored in the folders `src` and `static`. The text contents of the page are stored in `json` format and are dynamically injected during runtime.
+The project consists of two parts.
+
+- the website
+- cv-maker
+
+The website contains information about me, downloadable CVs in `pdf` format and some selected coding projects. The website's contents are injected dynamically via JavaScript during runtime. To make sure that the downloadable `pdf`s and the CV section of the page are in sync, `cv-maker` recreates the PDFs from the same information source, that feeds the website.
+
+All source files relating to the website are stored in the folders `src` and `static`. The text contents of the page are stored in `json` format and as mentioned above are dynamically injected during runtime.
 
 **Change this file to update the CV contents:**
 
@@ -26,9 +34,11 @@ A more detailed description of the project is available in `changelog.md`.
 
 ## Update CV / page
 
-Download the repo, cd into the project folder, download the dependencies and start the development server:
+Download the repo, cd into the project folder, install the dependencies and start the development server:
 
 ```
+git clone https://github.com/thomasgrusz/thomasgrusz.github.io.git
+cd thomasgrusz.github.io
 npm i
 npm run devStart
 ```
@@ -37,17 +47,19 @@ Open a browser and go to `localhost:1234`
 
 Update the CV in `scr/assets/content.json` and instantly see the changes in the browser upon saving to disk. `Parcel` uses hot module loading to dynamically keep the page updated.
 
+Sometimes the build pipeline during development fails, particularly when switching `git` branches, as `.parcel-cache` is not tracked by `git`. If this happens, simply delete both, the `.parcel-cache` and `dev` folders before running `npm run devStart` again.
+
 After updating the CV, run the build command:
 
 ```
 npm run build
 ```
 
-This will create a new `build` folder containing the minimized, bundled project files ready for production deployment.
+This will create a new `build` folder containing the minimized, bundled project files ready for production deployment. Take Note that the `.parcel-cache` folder is deleted automatically as part of the `build` script.
 
-## Publishing GitHub
+## Publishing on GitHub
 
-The easiest way to publish the site on GitHub is to create a separate `production` branch from the `build` folder, push that branch to GitHub and tell GitHub to deploy from that branch.
+The easiest way to publish the site on GitHub is to create a separate `production` git branch from the `build` folder, push that branch to GitHub and tell GitHub to deploy from that branch.
 
 ```
 git subtree split --prefix=build -b production
