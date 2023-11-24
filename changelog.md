@@ -258,5 +258,5 @@ After consulting the GitHub documentation on [publishing a site on gh-pages](htt
 The `build` script in `package.json` has been adapted accordingly:
 
 ```
-"build": "rm -rf docs && npm run makeCv && parcel build src/index.html --no-source-maps --public-url / --dist-dir docs",
+"build": "npm run makeCv && parcel build src/index.html --no-source-maps --public-url / --dist-dir docs",
 ```

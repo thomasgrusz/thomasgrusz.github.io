@@ -55,8 +55,8 @@ After updating the CV, run the build command:
 npm run build
 ```
 
-This will create a new `build` folder containing the minimized, bundled project files ready for production deployment.
+This will create a bundle of static files in the `docs` folder ready for deployment.
 
 ## Publishing on GitHub
 
-GitHub offers an automatic publishing service, called `gh-pages`. It allows to publish either the root `/` or `docs` folder of a branch. As the parcel build is stored in a `docs` folder, the site will automatically be published on `gh-pages` upon pushing the code to this GitHub repo.
+GitHub offers an automatic publishing service, called [`gh-pages`](https://docs.github.com/en/pages/getting-started-with-github-pages). It allows to publish either the root `/` or `docs` folder of a branch. As the parcel build is stored in a `docs` folder, the site will automatically be published on `gh-pages` upon pushing the code to this GitHub repo.
