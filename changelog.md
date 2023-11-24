@@ -248,3 +248,15 @@ cv-maker
 `main.js` reads the relevant content from `src/assets/content.json`, injects it into the `cv_template.html` and stores the English and German versions of the CV as intermediate `html` files. Then, these `html` files will be transformed into PDFs using the `puppeteer` package.
 
 The CVs are styled based on the local `styles.css` file and a smaller (150x150) version of the portrait photo.
+
+## Date: 2023 November 24
+
+### Deployment on GitHub and corresponding changes to the build process
+
+After consulting the GitHub documentation on [publishing a site on gh-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites), it became clear, that the easiest way to deploy a page, is to move the final static files from the `build` folder to the `docs` folder. gh-pages can be instructed to publish from any branch either from the root folder or from the `docs` folder. As this project is using parcel as the build tool, it makes sense to have the result of the build process being stored and then deployed directly from the `docs` folder. This way, there is no need to have a `production` branch.
+
+The `build` script in `package.json` has been adapted accordingly:
+
+```
+"build": "rm -rf docs && npm run makeCv && parcel build src/index.html --no-source-maps --public-url / --dist-dir docs",
+```

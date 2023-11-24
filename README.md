@@ -18,7 +18,7 @@ The project consists of two parts.
 - the website
 - cv-maker
 
-The website contains information about me, downloadable CVs in `pdf` format and some selected coding projects. The website's contents are injected dynamically via JavaScript during runtime. To make sure that the downloadable `pdf`s and the CV section of the page are in sync, `cv-maker` recreates the PDFs from the same information source, that feeds the website.
+The website contains information about me, downloadable CVs in `PDF` format and some selected coding projects. The website's contents are injected dynamically via JavaScript during runtime. To make sure, that the downloadable CVs in `PDF` format and the CV section of the page are in sync, `cv-maker` recreates the PDFs from the same information source, that feeds the website.
 
 All source files relating to the website are stored in the folders `src` and `static`. The text contents of the page are stored in `json` format and as mentioned above are dynamically injected during runtime.
 
@@ -28,7 +28,7 @@ All source files relating to the website are stored in the folders `src` and `st
 src/assets/content.json
 ```
 
-The `dev` folder contains the compiled and bundled development site to work with. The minimized final production build is stored in the folder `build`.
+The `dev` folder contains the compiled and bundled development site to work with. The minimized final production build is stored in the folder `docs`.
 
 A more detailed description of the project is available in `changelog.md`.
 
@@ -55,14 +55,8 @@ After updating the CV, run the build command:
 npm run build
 ```
 
-This will create a new `build` folder containing the minimized, bundled project files ready for production deployment. Take Note that the `.parcel-cache` folder is deleted automatically as part of the `build` script.
+This will create a new `build` folder containing the minimized, bundled project files ready for production deployment.
 
 ## Publishing on GitHub
 
-The easiest way to publish the site on GitHub is to create a separate `production` git branch from the `build` folder, push that branch to GitHub and tell GitHub to deploy from that branch.
-
-```
-git subtree split --prefix=build -b production
-git switch production
-git push --set-upstream origin production
-```
+GitHub offers an automatic publishing service, called `gh-pages`. It allows to publish either the root `/` or `docs` folder of a branch. As the parcel build is stored in a `docs` folder, the site will automatically be published on `gh-pages` upon pushing the code to this GitHub repo.
