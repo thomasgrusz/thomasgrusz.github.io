@@ -32,8 +32,8 @@
     "de": "Über mich"
   },
   "about_body": {
-    "en": "I am a biologist by training and have worked in the pharmaceutical industry in various roles over the past 20+ years. Currently I am transitioning into the IT/Computer Science field. I have extensive experience in international medical management with a focus on strategic marketing to healthcare professionals. I have worked in Switzerland and the U.S. in cross-cultural teams, also as a team leader, and have garnered my own entrepreneurial experience in the pharmaceutical sector in the Basel region. My motivation for the professional transition stems from a profound interest in computer science and technology, as well as considerations regarding the recent developments in AI and its projected consequences on the job market. Over the last several years I have gradually acquired skills in Linux System Administration, Deep Learning/Data Science, and Web Development. Currently, I am actively seeking opportunities in the field of Linux System Administration, which I am passionate about.",
-    "de": "Als ausgebildeter Diplom Biologe war ich über die letzten 20+ Jahre in verschiedenen Funktionen in der pharmazeutischen Industrie tätig. Derzeit befinde ich mich in einer Übergangsphase, mit der Absicht, in der IT/Informatikbranche Fuss zu fassen. Ich verfüge über umfangreiche Erfahrung im internationalen Medical Management mit Schwerpunkt Strategisches Marketing. Ich habe in der Schweiz und den USA in interkulturellen Teams gearbeitet, auch als Teamleiter, und eigene unternehmerische Erfahrungen im pharmazeutischen Sektor in der Region Basel gesammelt. Meine Motivation für den beruflichen Wechsel ergibt sich aus einem profunden Interesse an Informatik und Technologie sowie aus Überlegungen zu den jüngsten Entwicklungen in der KI und ihren potentiellen Auswirkungen auf den Arbeitsmarkt. In den letzten Jahren habe ich nach und nach Fähigkeiten in den Bereichen Linux-Systemadministration, Deep Learning/Data Science und Webentwicklung erworben. Derzeit suche ich aktiv nach einer Position im Bereich Linux-Systemadministration, für die ich eine besondere Leidenschaft entwickelt habe."
+    "en": "I am a biologist by training and have worked in the pharmaceutical industry in various roles over the past 20+ years in the Basel area and in the U.S. Currently I am transitioning into the IT/Computer Science field. My motivation for the professional transition stems from a profound interest in computer science and technology, as well as considerations regarding the recent developments in AI and its projected consequences on the job market. Over the last several years I have gradually acquired skills in Linux System Administration, Deep Learning/Data Science, and Web Development. Currently, I am actively pursuing employment opportunities in the field of Linux System Administration, which I am passionate about.",
+    "de": "Als ausgebildeter Diplom Biologe war ich über die letzten 20+ Jahre in verschiedenen Funktionen in der pharmazeutischen Industrie im Raum Basel und in den USA tätig. Derzeit befinde ich mich in einer Übergangsphase, mit der Absicht, in der Informatikbranche Fuss zu fassen.  Meine Motivation für den beruflichen Wechsel ergibt sich aus einem profunden Interesse an Computern und Technologie sowie aus Überlegungen zu den jüngsten Entwicklungen in der KI und ihren potentiellen Auswirkungen auf den Arbeitsmarkt. In den letzten Jahren habe ich nach und nach Fähigkeiten in den Bereichen Linux-Systemadministration, Deep Learning/Data Science und Webentwicklung erworben. Derzeit suche ich aktiv nach einer Position im Bereich Linux-Systemadministration, für die ich eine besondere Leidenschaft entwickelt habe."
   },
   "cv_heading": {
     "en": "Curriculum Vitae",
@@ -77,7 +77,7 @@
   },
   "cv_workexperience_5_text": {
     "en": "During my sabbatical, I explored the southern regions of Europe and embarked on extended hikes in Switzerland with our dog. Along the way, I rediscovered my passion for computers and found myself captivated by the progress in artificial intelligence. This led me to begin my ongoing exploration of computer science and information technology, commencing with an online degree in web development from Udacity.",
-    "de": "Während meines Sabbaticals habe ich die südlichen Regionen Europas erkundet und mit unserem Hund ausgedehnte Wanderungen in der Schweiz unternommen. Dabei habe ich meine Leidenschaft für Computer und Technologie wiederentdeckt und war fasziniert von den Fortschritten im Bereich der Künstlichen Intelligenz. Dies war der Beginn meiner Erkundung verschiedener Informatik/IT Themen. Daraufhin habe ich einen Online-Kurs in Web Development von Udacity als Einstieg gewählt und erfolgreich abgeschlossen."
+    "de": "Während meines Sabbaticals habe ich die südlichen Regionen Europas erkundet und mit unserem Hund ausgedehnte Wanderungen in der Schweiz unternommen. Dabei habe ich meine Leidenschaft für Computer und Technologie wiederentdeckt und war fasziniert von den Fortschritten im Bereich der Künstlichen Intelligenz. Dies war der Beginn meiner Erkundung verschiedener Informatik Themen. Daraufhin habe ich einen Online-Kurs in Web Development von Udacity als Einstieg gewählt und erfolgreich abgeschlossen."
   },
   "cv_workexperience_4_date": {
     "en": "2012 - 2015",
@@ -117,7 +117,7 @@
   },
   "cv_workexperience_3_4": {
     "en": "Managed yearly budget of CHF 800k",
-    "de": "Verwaltung eines jährlichen Budgets von CHF 800.000"
+    "de": "Verwaltung eines jährlichen Budgets von CHF 800k"
   },
   "cv_workexperience_3_5": {
     "en": "Created international marketing strategies and platform tools",
@@ -189,7 +189,7 @@
   },
   "cv_workexperience_1_7": {
     "en": "Managed annual budget of CHF 120k",
-    "de": "Verwaltung eines jährlichen Budgets von CHF 120.000"
+    "de": "Verwaltung eines jährlichen Budgets von CHF 120k"
   },
   "cv_education_5_date": {
     "en": "2023",

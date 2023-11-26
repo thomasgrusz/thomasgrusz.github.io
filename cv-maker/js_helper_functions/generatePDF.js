@@ -30,6 +30,7 @@ export async function generatePDF(cvFileName, language) {
     printBackground: false,
     margin: {
       top: "10mm",
+      bottom: "10mm",
     },
   });
 
