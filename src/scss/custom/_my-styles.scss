@@ -1,6 +1,6 @@
 // Fade in animation for initial page load
 body {
-  opacity: 1.4;
+  opacity: 1;
   transition: opacity 1s ease;
 
   &.fade {
